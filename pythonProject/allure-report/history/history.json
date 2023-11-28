@@ -1,0 +1,6275 @@
+{
+  "4c51ddaf87e8054f40daf4df97bdec5d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d93ce0867252bddc",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/d93ce0867252bddc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863732108,
+        "stop" : 1699863732223,
+        "duration" : 115
+      }
+    } ]
+  },
+  "56a85d69d58402cfda0e3eed788e067a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "8cdcf2bf79895477",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/8cdcf2bf79895477",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053857044,
+        "stop" : 1701053857207,
+        "duration" : 163
+      }
+    }, {
+      "uid" : "cc38c530ff3fea6f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/cc38c530ff3fea6f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 19001",
+      "time" : {
+        "start" : 1701052055262,
+        "stop" : 1701052055354,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "244eeb9dbf18f744",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/244eeb9dbf18f744",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793147762,
+        "stop" : 1700793147911,
+        "duration" : 149
+      }
+    }, {
+      "uid" : "4b4cefb1addfc0c9",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/4b4cefb1addfc0c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723084433,
+        "stop" : 1700723084645,
+        "duration" : 212
+      }
+    } ]
+  },
+  "324f0155579d5378c218033cf3e642c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "bf8d1796f7a9d3e3",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/153/allure/#testresult/bf8d1796f7a9d3e3",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL 该功能尚未实现\n\nAssertionError: assert False",
+      "time" : {
+        "start" : 1699412377987,
+        "stop" : 1699412377988,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "87408f5fc8c65664",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/152/allure/#testresult/87408f5fc8c65664",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL 该功能尚未实现\n\nAssertionError: assert False",
+      "time" : {
+        "start" : 1699409624210,
+        "stop" : 1699409624210,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "53f5ec77d4abe251",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/148/allure/#testresult/53f5ec77d4abe251",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL 该功能尚未实现\n\nAssertionError: assert False",
+      "time" : {
+        "start" : 1699341979609,
+        "stop" : 1699341979610,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7829c4e19947a29",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/7829c4e19947a29",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL 该功能尚未实现\n\nAssertionError: assert False",
+      "time" : {
+        "start" : 1699341824268,
+        "stop" : 1699341824269,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f5d67726db3b85b292472d5766d1968a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "253ece141e0cfa83",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/253ece141e0cfa83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856561,
+        "stop" : 1701053856648,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "3604d9b695ea985d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/3604d9b695ea985d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052054737,
+        "stop" : 1701052054821,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "be0616175bf90f47",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/be0616175bf90f47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793147290,
+        "stop" : 1700793147381,
+        "duration" : 91
+      }
+    }, {
+      "uid" : "4299aa99771c3985",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/4299aa99771c3985",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723083846,
+        "stop" : 1700723083972,
+        "duration" : 126
+      }
+    } ]
+  },
+  "f73771c66d9e4d8cde7b7e84721deca0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 61,
+      "unknown" : 0,
+      "total" : 66
+    },
+    "items" : [ {
+      "uid" : "fa4fa25e8b4c5b07",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/fa4fa25e8b4c5b07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053851302,
+        "stop" : 1701053853765,
+        "duration" : 2463
+      }
+    }, {
+      "uid" : "e42675e0b156a60a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/e42675e0b156a60a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052046982,
+        "stop" : 1701052051724,
+        "duration" : 4742
+      }
+    }, {
+      "uid" : "3288c45bb4b5409",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/3288c45bb4b5409",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793142060,
+        "stop" : 1700793144605,
+        "duration" : 2545
+      }
+    }, {
+      "uid" : "1adf2ebb0f4b5fa3",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/1adf2ebb0f4b5fa3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723076847,
+        "stop" : 1700723079689,
+        "duration" : 2842
+      }
+    }, {
+      "uid" : "8083370f1d806c15",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/8083370f1d806c15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710257432,
+        "stop" : 1700710258536,
+        "duration" : 1104
+      }
+    } ]
+  },
+  "5463d848cf39c0bcc3eea876df6a6541" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 41,
+      "unknown" : 0,
+      "total" : 47
+    },
+    "items" : [ {
+      "uid" : "2f51553e681effbe",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/2f51553e681effbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855900,
+        "stop" : 1701053855989,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "4653b960f7075fd4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/4653b960f7075fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052054017,
+        "stop" : 1701052054102,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "fd6d7171fbb57f81",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/fd6d7171fbb57f81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793146647,
+        "stop" : 1700793146728,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "6597721cb327566a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/6597721cb327566a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723082668,
+        "stop" : 1700723082788,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "396e85a93aa61959",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/396e85a93aa61959",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710261416,
+        "stop" : 1700710261515,
+        "duration" : 99
+      }
+    } ]
+  },
+  "e5792e9202e3845de50f88b3980c5911" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "445587b0587db705",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/445587b0587db705",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856835,
+        "stop" : 1701053856932,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "8fcf3178344e3b33",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/8fcf3178344e3b33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052055044,
+        "stop" : 1701052055137,
+        "duration" : 93
+      }
+    }, {
+      "uid" : "90c8c392bb3c5c7f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/90c8c392bb3c5c7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793147571,
+        "stop" : 1700793147663,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "29b8a38fe7f9ad1",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/29b8a38fe7f9ad1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723084190,
+        "stop" : 1700723084312,
+        "duration" : 122
+      }
+    } ]
+  },
+  "8fba98997873eff57eeeb489b0a788bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "43976591e522cf2b",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/153/allure/#testresult/43976591e522cf2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699412378183,
+        "stop" : 1699412378183,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dc18d5fca6f49796",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/152/allure/#testresult/dc18d5fca6f49796",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699409624438,
+        "stop" : 1699409624438,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9850eaccc0015943",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/148/allure/#testresult/9850eaccc0015943",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341979824,
+        "stop" : 1699341979824,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "110d816efcc70d57",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/110d816efcc70d57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341824301,
+        "stop" : 1699341824302,
+        "duration" : 1
+      }
+    } ]
+  },
+  "d95101cf6281c2b9688a05a93bc64d7f" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "28b2a75fc3fb7cb",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/28b2a75fc3fb7cb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15003",
+      "time" : {
+        "start" : 1701053883855,
+        "stop" : 1701053883931,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "bce7107001ed1e13",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/bce7107001ed1e13",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15003",
+      "time" : {
+        "start" : 1701052058055,
+        "stop" : 1701052058133,
+        "duration" : 78
+      }
+    }, {
+      "uid" : "db7a4972ba99f873",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/db7a4972ba99f873",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793163527,
+        "stop" : 1700793164718,
+        "duration" : 1191
+      }
+    }, {
+      "uid" : "5fbc762a20638be8",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/5fbc762a20638be8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723096462,
+        "stop" : 1700723096788,
+        "duration" : 326
+      }
+    }, {
+      "uid" : "3ee723047a1b3f64",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/3ee723047a1b3f64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710272165,
+        "stop" : 1700710273265,
+        "duration" : 1100
+      }
+    } ]
+  },
+  "2b52d7bdd35927455521f8f73bdb8c39" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "bf791284e52ed099",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/207/allure/#testresult/bf791284e52ed099",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1700017002726,
+        "stop" : 1700017002804,
+        "duration" : 78
+      }
+    }, {
+      "uid" : "936924616488746f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/206/allure/#testresult/936924616488746f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700013202227,
+        "stop" : 1700013202337,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "f9bef7e48a7feed7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/205/allure/#testresult/f9bef7e48a7feed7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700012902105,
+        "stop" : 1700012902231,
+        "duration" : 126
+      }
+    } ]
+  },
+  "1fac7d40586019744790cdee75f9788c" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "ba14a8fe964f0f26",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/ba14a8fe964f0f26",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15003",
+      "time" : {
+        "start" : 1701053885877,
+        "stop" : 1701053886102,
+        "duration" : 225
+      }
+    }, {
+      "uid" : "a12d7de4a9a0b887",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/a12d7de4a9a0b887",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15003",
+      "time" : {
+        "start" : 1701052060443,
+        "stop" : 1701052060661,
+        "duration" : 218
+      }
+    }, {
+      "uid" : "cabb4cb9bfe66d26",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/cabb4cb9bfe66d26",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 12007",
+      "time" : {
+        "start" : 1700793184317,
+        "stop" : 1700793190414,
+        "duration" : 6097
+      }
+    }, {
+      "uid" : "8ec061eb58dc6355",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/8ec061eb58dc6355",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723149191,
+        "stop" : 1700723163459,
+        "duration" : 14268
+      }
+    }, {
+      "uid" : "bd3c891c7c8ce34",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/bd3c891c7c8ce34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710295784,
+        "stop" : 1700710308851,
+        "duration" : 13067
+      }
+    } ]
+  },
+  "ae80f38c8a1e73b4f372cf22cb18fe26" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8220cd8882270921",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/157/allure/#testresult/8220cd8882270921",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1699421359625,
+        "stop" : 1699421359680,
+        "duration" : 55
+      }
+    } ]
+  },
+  "0a14666eca04d5a8796e9d7ee09aa200" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8a09d284400ad30",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/a8a09d284400ad30",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: for a reason!",
+      "time" : {
+        "start" : 1699341824221,
+        "stop" : 1699341824221,
+        "duration" : 0
+      }
+    } ]
+  },
+  "487574122a885759b0a37a0759de3edd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 53,
+      "unknown" : 0,
+      "total" : 56
+    },
+    "items" : [ {
+      "uid" : "86a13c54f05763e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/86a13c54f05763e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053853787,
+        "stop" : 1701053853876,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "3b0caa71ff4b4636",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/3b0caa71ff4b4636",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052051731,
+        "stop" : 1701052051823,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "9ba040281b708a85",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/9ba040281b708a85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793144610,
+        "stop" : 1700793144683,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "7a945935a4c142e9",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/7a945935a4c142e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723079697,
+        "stop" : 1700723079950,
+        "duration" : 253
+      }
+    }, {
+      "uid" : "570a2b23d12a4924",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/570a2b23d12a4924",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710258552,
+        "stop" : 1700710258631,
+        "duration" : 79
+      }
+    } ]
+  },
+  "7b85433017c886b305f3dd2292daf529" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b82e6ea5eb1047f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/7b82e6ea5eb1047f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'local' != 'cloud'\n- local\n+ cloud",
+      "time" : {
+        "start" : 1699863734334,
+        "stop" : 1699863734428,
+        "duration" : 94
+      }
+    } ]
+  },
+  "c9039738a751ec066e35a3b37f683bb9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "a18cae51ce04fb86",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/a18cae51ce04fb86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856940,
+        "stop" : 1701053857038,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "5c6264b34789584a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/5c6264b34789584a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052055145,
+        "stop" : 1701052055254,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "28007aebd7e8bcbf",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/28007aebd7e8bcbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793147669,
+        "stop" : 1700793147757,
+        "duration" : 88
+      }
+    }, {
+      "uid" : "9bcc9dbd84dd3918",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/9bcc9dbd84dd3918",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723084318,
+        "stop" : 1700723084427,
+        "duration" : 109
+      }
+    } ]
+  },
+  "0da32827e9939a3371680cbc3778d957" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58a4dfffe7bfe207",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/58a4dfffe7bfe207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863735084,
+        "stop" : 1699863748074,
+        "duration" : 12990
+      }
+    } ]
+  },
+  "8abbd3d17da699e14c05e818978481ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efb9152de7b100a4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/efb9152de7b100a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863732826,
+        "stop" : 1699863732927,
+        "duration" : 101
+      }
+    } ]
+  },
+  "7ead049d98b28cde8311109d24d04935" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 61,
+      "unknown" : 0,
+      "total" : 66
+    },
+    "items" : [ {
+      "uid" : "8d206cde666b3c9",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/8d206cde666b3c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053831499,
+        "stop" : 1701053851063,
+        "duration" : 19564
+      }
+    }, {
+      "uid" : "b5917421e64e0f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/b5917421e64e0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052044912,
+        "stop" : 1701052046223,
+        "duration" : 1311
+      }
+    }, {
+      "uid" : "ff971a8db72799eb",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/ff971a8db72799eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793138459,
+        "stop" : 1700793141434,
+        "duration" : 2975
+      }
+    }, {
+      "uid" : "55ab0269a4051493",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/55ab0269a4051493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723075262,
+        "stop" : 1700723076005,
+        "duration" : 743
+      }
+    }, {
+      "uid" : "b17495a73fc317da",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/b17495a73fc317da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710254692,
+        "stop" : 1700710256855,
+        "duration" : 2163
+      }
+    } ]
+  },
+  "72634dbe51f5f0c6ae826b69edeb340d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "743c416d9f7eaa93",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/164/allure/#testresult/743c416d9f7eaa93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699508059271,
+        "stop" : 1699508062336,
+        "duration" : 3065
+      }
+    }, {
+      "uid" : "c6fe1a83c483b8ed",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/163/allure/#testresult/c6fe1a83c483b8ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699498359178,
+        "stop" : 1699498360926,
+        "duration" : 1748
+      }
+    }, {
+      "uid" : "5850a7906ba874bd",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/162/allure/#testresult/5850a7906ba874bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699498148863,
+        "stop" : 1699498151648,
+        "duration" : 2785
+      }
+    }, {
+      "uid" : "e2fe568ae708465c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/161/allure/#testresult/e2fe568ae708465c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699498020714,
+        "stop" : 1699498022511,
+        "duration" : 1797
+      }
+    } ]
+  },
+  "c49d62ffb82dcb85c86089e6e5013077" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "ae86749f71beeb74",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/ae86749f71beeb74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856101,
+        "stop" : 1701053856360,
+        "duration" : 259
+      }
+    }, {
+      "uid" : "e26ba51d39231412",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/e26ba51d39231412",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052054223,
+        "stop" : 1701052054505,
+        "duration" : 282
+      }
+    }, {
+      "uid" : "dfedf2e41a5c595",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/dfedf2e41a5c595",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793146847,
+        "stop" : 1700793147092,
+        "duration" : 245
+      }
+    }, {
+      "uid" : "eec65aec1603688e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/eec65aec1603688e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723082963,
+        "stop" : 1700723083454,
+        "duration" : 491
+      }
+    } ]
+  },
+  "d4d65ec44e22bedd5b77c0bd477c8a61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "7d015b741e498e32",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/204/allure/#testresult/7d015b741e498e32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700012859452,
+        "stop" : 1700012859697,
+        "duration" : 245
+      }
+    }, {
+      "uid" : "5c8a8d0d79ecd1c4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/203/allure/#testresult/5c8a8d0d79ecd1c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699945926543,
+        "stop" : 1699945926883,
+        "duration" : 340
+      }
+    }, {
+      "uid" : "4164fdcfe3a5e414",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/202/allure/#testresult/4164fdcfe3a5e414",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699931305230,
+        "stop" : 1699931305527,
+        "duration" : 297
+      }
+    }, {
+      "uid" : "2438c92860f036bd",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/201/allure/#testresult/2438c92860f036bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699931222951,
+        "stop" : 1699931224017,
+        "duration" : 1066
+      }
+    }, {
+      "uid" : "868010997bd935e4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/200/allure/#testresult/868010997bd935e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699930615448,
+        "stop" : 1699930616134,
+        "duration" : 686
+      }
+    } ]
+  },
+  "57b9c3532ca29c5ad56d557bcc75f480" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33002a32bd6330e5",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/33002a32bd6330e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863731546,
+        "stop" : 1699863731692,
+        "duration" : 146
+      }
+    } ]
+  },
+  "103d07d363d34ebff4f211fc66af17c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "676e105e53ccbe09",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/157/allure/#testresult/676e105e53ccbe09",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1699421360081,
+        "stop" : 1699421360122,
+        "duration" : 41
+      }
+    } ]
+  },
+  "7cd66fc8fa03e6c01bef41ed8e558595" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d91932d0592afc90",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/d91932d0592afc90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863732362,
+        "stop" : 1699863732495,
+        "duration" : 133
+      }
+    } ]
+  },
+  "8078c98ff892bd8769b20ef25d60d75d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfaab6f4bf6961f4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/cfaab6f4bf6961f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863722829,
+        "stop" : 1699863722892,
+        "duration" : 63
+      }
+    } ]
+  },
+  "64fd934a549f3d09310fae4f45123cca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9047411abfa55da1",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/166/allure/#testresult/9047411abfa55da1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699508702783,
+        "stop" : 1699508702845,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "1d057fc106744c6a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/165/allure/#testresult/1d057fc106744c6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699508549139,
+        "stop" : 1699508549508,
+        "duration" : 369
+      }
+    } ]
+  },
+  "ed5478945fb15da048affb4fc848bcb4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2539a8a2b795bf",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/b2539a8a2b795bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863732942,
+        "stop" : 1699863733067,
+        "duration" : 125
+      }
+    } ]
+  },
+  "1ca5dbe3e2536bcef3ff4d47173da735" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 29
+    },
+    "items" : [ {
+      "uid" : "2d55d48b3aef1784",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/2d55d48b3aef1784",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1701053882650,
+        "stop" : 1701053882742,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "39dcfff4ce77cc6d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/39dcfff4ce77cc6d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1701052056704,
+        "stop" : 1701052056784,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "8253bd037bd47a43",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/8253bd037bd47a43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793157340,
+        "stop" : 1700793158269,
+        "duration" : 929
+      }
+    }, {
+      "uid" : "5b38ed548b012131",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/5b38ed548b012131",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723092832,
+        "stop" : 1700723093574,
+        "duration" : 742
+      }
+    }, {
+      "uid" : "982aeaf9f919663",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/982aeaf9f919663",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710263945,
+        "stop" : 1700710266023,
+        "duration" : 2078
+      }
+    } ]
+  },
+  "788d1e749d694747e91fe7269def995a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 69,
+      "unknown" : 0,
+      "total" : 75
+    },
+    "items" : [ {
+      "uid" : "651be11aea2f09b7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/651be11aea2f09b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053831310,
+        "stop" : 1701053831397,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "255ed9d8f4e9af95",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/255ed9d8f4e9af95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052044692,
+        "stop" : 1701052044785,
+        "duration" : 93
+      }
+    }, {
+      "uid" : "2eed81a01b8f89b4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/2eed81a01b8f89b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793138256,
+        "stop" : 1700793138345,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "80ae54b19b5900d0",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/80ae54b19b5900d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723075028,
+        "stop" : 1700723075103,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "34515ee604057ad5",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/34515ee604057ad5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710254470,
+        "stop" : 1700710254571,
+        "duration" : 101
+      }
+    } ]
+  },
+  "f39eeac820231dfd178d42b10d7cc6db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 14
+    },
+    "items" : [ {
+      "uid" : "a3442221158d19a0",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/195/allure/#testresult/a3442221158d19a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699925684962,
+        "stop" : 1699925685632,
+        "duration" : 670
+      }
+    }, {
+      "uid" : "fa7ea7b136968bda",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/194/allure/#testresult/fa7ea7b136968bda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699925478033,
+        "stop" : 1699925479316,
+        "duration" : 1283
+      }
+    }, {
+      "uid" : "a40f50856d7f17bb",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/193/allure/#testresult/a40f50856d7f17bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699924658419,
+        "stop" : 1699924659139,
+        "duration" : 720
+      }
+    }, {
+      "uid" : "1358f9de404bb166",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/192/allure/#testresult/1358f9de404bb166",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699865466349,
+        "stop" : 1699865467273,
+        "duration" : 924
+      }
+    }, {
+      "uid" : "296ccc44c1777f37",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/191/allure/#testresult/296ccc44c1777f37",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPSConnectionPool(host='192.168.111.191', port=443): Max retries exceeded with url: /api/v1/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E21FBC2500>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1699865318858,
+        "stop" : 1699865320894,
+        "duration" : 2036
+      }
+    } ]
+  },
+  "924c4ecc2b1e866f13aa32d5ad57625b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "533bb5fdd87b281b",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/533bb5fdd87b281b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1699341823835,
+        "stop" : 1699341823835,
+        "duration" : 0
+      }
+    } ]
+  },
+  "230866d53c7f843a6f687673ef27554e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 58,
+      "unknown" : 0,
+      "total" : 62
+    },
+    "items" : [ {
+      "uid" : "6979bd31adf4ec34",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/6979bd31adf4ec34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855432,
+        "stop" : 1701053855523,
+        "duration" : 91
+      }
+    }, {
+      "uid" : "a2dac21bcbc7a63f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/a2dac21bcbc7a63f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052053658,
+        "stop" : 1701052053740,
+        "duration" : 82
+      }
+    }, {
+      "uid" : "60e932f1682d8df1",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/60e932f1682d8df1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793146298,
+        "stop" : 1700793146375,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "ae374437997d5c5f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/ae374437997d5c5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723082134,
+        "stop" : 1700723082250,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "1b5d567152a0e074",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/1b5d567152a0e074",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710260998,
+        "stop" : 1700710261099,
+        "duration" : 101
+      }
+    } ]
+  },
+  "e8ca3db4476ed17ca2428d047f00a3af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 14
+    },
+    "items" : [ {
+      "uid" : "5d10fb1decebd9dc",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/195/allure/#testresult/5d10fb1decebd9dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699925686644,
+        "stop" : 1699925687187,
+        "duration" : 543
+      }
+    }, {
+      "uid" : "c1e911df39bbc598",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/194/allure/#testresult/c1e911df39bbc598",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699925481347,
+        "stop" : 1699925482743,
+        "duration" : 1396
+      }
+    }, {
+      "uid" : "31822ea343046d68",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/193/allure/#testresult/31822ea343046d68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699924660273,
+        "stop" : 1699924660430,
+        "duration" : 157
+      }
+    }, {
+      "uid" : "a2d6d4076b97bae8",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/192/allure/#testresult/a2d6d4076b97bae8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699865468262,
+        "stop" : 1699865468767,
+        "duration" : 505
+      }
+    }, {
+      "uid" : "1b62430684b53759",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/191/allure/#testresult/1b62430684b53759",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPSConnectionPool(host='192.168.111.191', port=443): Max retries exceeded with url: /api/v1/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E21F73FE50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1699865330166,
+        "stop" : 1699865332220,
+        "duration" : 2054
+      }
+    } ]
+  },
+  "2d53a6da2c39b8bb1b4b56ddd0efd643" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 58,
+      "unknown" : 0,
+      "total" : 62
+    },
+    "items" : [ {
+      "uid" : "4447ae6571150fdb",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/4447ae6571150fdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855530,
+        "stop" : 1701053855612,
+        "duration" : 82
+      }
+    }, {
+      "uid" : "d89e90d4da6b8b61",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/d89e90d4da6b8b61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052053747,
+        "stop" : 1701052053831,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "cf31349b2b85ad78",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/cf31349b2b85ad78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793146381,
+        "stop" : 1700793146456,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "d77a8707a355534d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/d77a8707a355534d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723082260,
+        "stop" : 1700723082370,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "67111e66da781189",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/67111e66da781189",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710261110,
+        "stop" : 1700710261200,
+        "duration" : 90
+      }
+    } ]
+  },
+  "6ceb005ef05a290f66929239926b777d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "5a6fabb98d0581c7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/5a6fabb98d0581c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053857215,
+        "stop" : 1701053881820,
+        "duration" : 24605
+      }
+    }, {
+      "uid" : "f218ba41038f1bfd",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/f218ba41038f1bfd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 22002",
+      "time" : {
+        "start" : 1701052055688,
+        "stop" : 1701052055786,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "e7d5c9c09975d142",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/e7d5c9c09975d142",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793147919,
+        "stop" : 1700793154764,
+        "duration" : 6845
+      }
+    }, {
+      "uid" : "9a7856e0073ea3ba",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/9a7856e0073ea3ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723084655,
+        "stop" : 1700723091621,
+        "duration" : 6966
+      }
+    } ]
+  },
+  "4a87d0f28358aaba6db08848b0327d1e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 14
+    },
+    "items" : [ {
+      "uid" : "89aee534c6ec4d33",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/195/allure/#testresult/89aee534c6ec4d33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699925686324,
+        "stop" : 1699925686509,
+        "duration" : 185
+      }
+    }, {
+      "uid" : "a7ba532ad1f889a0",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/194/allure/#testresult/a7ba532ad1f889a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699925480702,
+        "stop" : 1699925481188,
+        "duration" : 486
+      }
+    }, {
+      "uid" : "f678be357dcfe0b8",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/193/allure/#testresult/f678be357dcfe0b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699924659881,
+        "stop" : 1699924660042,
+        "duration" : 161
+      }
+    }, {
+      "uid" : "c2ddddf62c3a3220",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/192/allure/#testresult/c2ddddf62c3a3220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699865467917,
+        "stop" : 1699865468083,
+        "duration" : 166
+      }
+    }, {
+      "uid" : "54818d8e01db1e38",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/191/allure/#testresult/54818d8e01db1e38",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPSConnectionPool(host='192.168.111.191', port=443): Max retries exceeded with url: /api/v1/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E21FB8DF90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1699865325653,
+        "stop" : 1699865327692,
+        "duration" : 2039
+      }
+    } ]
+  },
+  "56fdc690ad89773440b43cc684300038" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "312ace200e6dfcc4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/312ace200e6dfcc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863733905,
+        "stop" : 1699863734009,
+        "duration" : 104
+      }
+    } ]
+  },
+  "43c30e342a0cb4d2fd4520ae0c9d92d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 69,
+      "unknown" : 0,
+      "total" : 75
+    },
+    "items" : [ {
+      "uid" : "f2372097f684b2a4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/f2372097f684b2a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053831456,
+        "stop" : 1701053831490,
+        "duration" : 34
+      }
+    }, {
+      "uid" : "6d444cea7ba1aa9b",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/6d444cea7ba1aa9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052044849,
+        "stop" : 1701052044901,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "722586d71e434fab",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/722586d71e434fab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793138405,
+        "stop" : 1700793138448,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "2f663e0d825801b5",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/2f663e0d825801b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723075177,
+        "stop" : 1700723075239,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "f892bad9600a5d46",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/f892bad9600a5d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710254634,
+        "stop" : 1700710254682,
+        "duration" : 48
+      }
+    } ]
+  },
+  "460958c85d42c76f2c02d1a509f4c5d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8e446da338d1ae03",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/153/allure/#testresult/8e446da338d1ae03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699412378201,
+        "stop" : 1699412378201,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3da5267132fa7500",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/152/allure/#testresult/3da5267132fa7500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699409624457,
+        "stop" : 1699409624457,
+        "duration" : 0
+      }
+    } ]
+  },
+  "45ff44e6dfe73311866e611945c7b239" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "20343104a12793cb",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/164/allure/#testresult/20343104a12793cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699508063978,
+        "stop" : 1699508065006,
+        "duration" : 1028
+      }
+    } ]
+  },
+  "6610515430ff31264774ad6e522ee482" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7d38884cac328f65",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/159/allure/#testresult/7d38884cac328f65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699497700881,
+        "stop" : 1699497700928,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "10366fe87d0b9d6e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/158/allure/#testresult/10366fe87d0b9d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699497445785,
+        "stop" : 1699497445842,
+        "duration" : 57
+      }
+    } ]
+  },
+  "f8deaad51d08e9688f77405da7254f98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e63f0091ea27657f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699240628603,
+        "stop" : 1699240628603,
+        "duration" : 0
+      }
+    } ]
+  },
+  "900ca0ecf550533a0bc9b92f13a578e7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 62,
+      "unknown" : 0,
+      "total" : 66
+    },
+    "items" : [ {
+      "uid" : "9870574a5b1c96b5",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/9870574a5b1c96b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053851070,
+        "stop" : 1701053851165,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "4900509b4e1a1612",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/4900509b4e1a1612",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052046228,
+        "stop" : 1701052046362,
+        "duration" : 134
+      }
+    }, {
+      "uid" : "1b2b119da8079103",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/1b2b119da8079103",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793141451,
+        "stop" : 1700793141560,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "e4a27bd82a742fa8",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/e4a27bd82a742fa8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723076013,
+        "stop" : 1700723076197,
+        "duration" : 184
+      }
+    }, {
+      "uid" : "4882ee19437520b1",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/4882ee19437520b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710256860,
+        "stop" : 1700710257300,
+        "duration" : 440
+      }
+    } ]
+  },
+  "956e365c7d92543b9ea92ce7df08308d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 24,
+      "unknown" : 0,
+      "total" : 28
+    },
+    "items" : [ {
+      "uid" : "8679185cc28ed0e4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/8679185cc28ed0e4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1701053882817,
+        "stop" : 1701053882887,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "b922ca708865c47e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/b922ca708865c47e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1701052056849,
+        "stop" : 1701052056938,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "38082bc1da2d96eb",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/38082bc1da2d96eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793158285,
+        "stop" : 1700793158471,
+        "duration" : 186
+      }
+    }, {
+      "uid" : "1d1c2762a4f6a28",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/1d1c2762a4f6a28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723093579,
+        "stop" : 1700723093890,
+        "duration" : 311
+      }
+    }, {
+      "uid" : "e48a40bb37ed0a53",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/e48a40bb37ed0a53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710266028,
+        "stop" : 1700710266959,
+        "duration" : 931
+      }
+    } ]
+  },
+  "3d7c9a6a78ddfd6501892f46ec4ef017" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 14
+    },
+    "items" : [ {
+      "uid" : "fa120bec36ec4b2e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/195/allure/#testresult/fa120bec36ec4b2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699925686517,
+        "stop" : 1699925686639,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "b98aa664a3657781",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/194/allure/#testresult/b98aa664a3657781",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699925481218,
+        "stop" : 1699925481338,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "8a818b416a330e6d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/193/allure/#testresult/8a818b416a330e6d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 15022 != 15019",
+      "time" : {
+        "start" : 1699924660055,
+        "stop" : 1699924660202,
+        "duration" : 147
+      }
+    }, {
+      "uid" : "fc781d46706656f3",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/192/allure/#testresult/fc781d46706656f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699865468099,
+        "stop" : 1699865468246,
+        "duration" : 147
+      }
+    }, {
+      "uid" : "4e0ba5e21fef023c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/191/allure/#testresult/4e0ba5e21fef023c",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPSConnectionPool(host='192.168.111.191', port=443): Max retries exceeded with url: /api/v1/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E21FA48E20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1699865327894,
+        "stop" : 1699865329956,
+        "duration" : 2062
+      }
+    } ]
+  },
+  "5435ce020166e741dc2e605b9937a6de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 19,
+      "unknown" : 0,
+      "total" : 22
+    },
+    "items" : [ {
+      "uid" : "9c84db29dcde5755",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/209/allure/#testresult/9c84db29dcde5755",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700025524809,
+        "stop" : 1700025524923,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "a1c469cb3dcd8937",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/208/allure/#testresult/a1c469cb3dcd8937",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1700018633222,
+        "stop" : 1700018633298,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "876ed665c87f4b6f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/207/allure/#testresult/876ed665c87f4b6f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1700017001509,
+        "stop" : 1700017001619,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "af953d9a214a51d3",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/206/allure/#testresult/af953d9a214a51d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700013198862,
+        "stop" : 1700013198972,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "48c5ce15045471e3",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/205/allure/#testresult/48c5ce15045471e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700012897324,
+        "stop" : 1700012897451,
+        "duration" : 127
+      }
+    } ]
+  },
+  "adb883409abcd5a3b68889eece5edf2d" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 31,
+      "unknown" : 0,
+      "total" : 34
+    },
+    "items" : [ {
+      "uid" : "79d49bd51f9861f5",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/79d49bd51f9861f5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 15019 != 15003",
+      "time" : {
+        "start" : 1701053883249,
+        "stop" : 1701053883323,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "210e05b3a0752937",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/210e05b3a0752937",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 15019 != 15003",
+      "time" : {
+        "start" : 1701052057382,
+        "stop" : 1701052057465,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "32a62f52e64048ef",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/32a62f52e64048ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793159929,
+        "stop" : 1700793160022,
+        "duration" : 93
+      }
+    }, {
+      "uid" : "41df4d55e9518eb",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/41df4d55e9518eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723094647,
+        "stop" : 1700723094755,
+        "duration" : 108
+      }
+    }, {
+      "uid" : "fa91047ff6907e9e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/fa91047ff6907e9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710268788,
+        "stop" : 1700710268886,
+        "duration" : 98
+      }
+    } ]
+  },
+  "1df6692c698e1f4d4621c031ebe87cd4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 56,
+      "unknown" : 0,
+      "total" : 59
+    },
+    "items" : [ {
+      "uid" : "f90739e25d22e171",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/f90739e25d22e171",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884425,
+        "stop" : 1701053884511,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "25d3f2fefda2265e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/25d3f2fefda2265e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052058660,
+        "stop" : 1701052058747,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "d9090ebacd2b9d3c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/d9090ebacd2b9d3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793166473,
+        "stop" : 1700793166595,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "3c71ec9ebd98a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/3c71ec9ebd98a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723097838,
+        "stop" : 1700723097973,
+        "duration" : 135
+      }
+    }, {
+      "uid" : "88e9ce63f623447f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/88e9ce63f623447f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710274315,
+        "stop" : 1700710274450,
+        "duration" : 135
+      }
+    } ]
+  },
+  "5b492843d3821b051b2d9df26a2baa4f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 55,
+      "unknown" : 0,
+      "total" : 59
+    },
+    "items" : [ {
+      "uid" : "1ba1a003479b906a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/1ba1a003479b906a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884243,
+        "stop" : 1701053884330,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "a28b4dbcf094dda2",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/a28b4dbcf094dda2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052058468,
+        "stop" : 1701052058562,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "c9c3117659b8378d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/c9c3117659b8378d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793166194,
+        "stop" : 1700793166316,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "43c4e5c02c1ef561",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/43c4e5c02c1ef561",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723097408,
+        "stop" : 1700723097641,
+        "duration" : 233
+      }
+    }, {
+      "uid" : "3b3c0af334a21e1d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/3b3c0af334a21e1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710274035,
+        "stop" : 1700710274144,
+        "duration" : 109
+      }
+    } ]
+  },
+  "2b8d9c4806ea36daadf389a8efd06cea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2047f8f27a5fca6b",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/204/allure/#testresult/2047f8f27a5fca6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700012864716,
+        "stop" : 1700012865369,
+        "duration" : 653
+      }
+    }, {
+      "uid" : "53434108d6e74db9",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/203/allure/#testresult/53434108d6e74db9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699945930823,
+        "stop" : 1699945931359,
+        "duration" : 536
+      }
+    } ]
+  },
+  "bd0ac351be9cee706be352f4f1e3bd17" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 56,
+      "unknown" : 0,
+      "total" : 59
+    },
+    "items" : [ {
+      "uid" : "4a68e47a370fb9a2",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/4a68e47a370fb9a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884158,
+        "stop" : 1701053884238,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "416cbee3a04b5e17",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/416cbee3a04b5e17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052058375,
+        "stop" : 1701052058461,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "5024d83a4da42011",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/5024d83a4da42011",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793166030,
+        "stop" : 1700793166178,
+        "duration" : 148
+      }
+    }, {
+      "uid" : "331e6364453269ee",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/331e6364453269ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723097279,
+        "stop" : 1700723097401,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "98ee80ecc99fb6d4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/98ee80ecc99fb6d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710273935,
+        "stop" : 1700710274028,
+        "duration" : 93
+      }
+    } ]
+  },
+  "cbb2fc61cfb424e81e4f37f26437d0fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 23
+    },
+    "items" : [ {
+      "uid" : "acabb1ffe331267a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/acabb1ffe331267a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884871,
+        "stop" : 1701053884949,
+        "duration" : 78
+      }
+    }, {
+      "uid" : "6bb0c770e43c5cff",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/6bb0c770e43c5cff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052059133,
+        "stop" : 1701052059213,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "827bdf0346d059cd",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/827bdf0346d059cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793167061,
+        "stop" : 1700793167160,
+        "duration" : 99
+      }
+    }, {
+      "uid" : "e471f9c9089d97ef",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/e471f9c9089d97ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723100189,
+        "stop" : 1700723100354,
+        "duration" : 165
+      }
+    }, {
+      "uid" : "5ec120b0294aeddc",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/5ec120b0294aeddc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710274951,
+        "stop" : 1700710275043,
+        "duration" : 92
+      }
+    } ]
+  },
+  "f2436c1d94d275d55dc7e698f3f40f4c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 58,
+      "unknown" : 0,
+      "total" : 62
+    },
+    "items" : [ {
+      "uid" : "b36669b995c95216",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/b36669b995c95216",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053854877,
+        "stop" : 1701053854956,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "7cf5214f10b575b4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/7cf5214f10b575b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052053036,
+        "stop" : 1701052053156,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "7aa067602f261552",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/7aa067602f261552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793145774,
+        "stop" : 1700793145853,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "b536dcf023115be3",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/b536dcf023115be3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723081399,
+        "stop" : 1700723081515,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "aec7af3726856b50",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/aec7af3726856b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710260378,
+        "stop" : 1700710260472,
+        "duration" : 94
+      }
+    } ]
+  },
+  "b5b5c8ee06e83496b4b8ae4586d0f2f5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8978118d8596403",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/f8978118d8596403",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863729078,
+        "stop" : 1699863729585,
+        "duration" : 507
+      }
+    } ]
+  },
+  "8fc5e0ac87fc7e2811e49b6e70e2a109" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca4bead02e2e857c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/168/allure/#testresult/ca4bead02e2e857c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699510299789,
+        "stop" : 1699510299838,
+        "duration" : 49
+      }
+    } ]
+  },
+  "a390e17c3f5f719be390467d6d83af8e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37bd5c5efa6202c1",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/168/allure/#testresult/37bd5c5efa6202c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699510299723,
+        "stop" : 1699510299781,
+        "duration" : 58
+      }
+    } ]
+  },
+  "ef58cc764e62595b26f5d0027c7b09b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3d100fd8bd6d9e4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/f3d100fd8bd6d9e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863733670,
+        "stop" : 1699863733780,
+        "duration" : 110
+      }
+    } ]
+  },
+  "3faad5d7544956cea0e0c4b0e5f504ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69226afe1370cc83",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/69226afe1370cc83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863759263,
+        "stop" : 1699863759405,
+        "duration" : 142
+      }
+    } ]
+  },
+  "3bfc89b392dde0e8c5b8666a99ad9873" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c284debc5a232507",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/204/allure/#testresult/c284debc5a232507",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700012863253,
+        "stop" : 1700012864716,
+        "duration" : 1463
+      }
+    }, {
+      "uid" : "d274b3d7ef088ea0",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/203/allure/#testresult/d274b3d7ef088ea0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699945929976,
+        "stop" : 1699945930811,
+        "duration" : 835
+      }
+    } ]
+  },
+  "3f70ff5e3c9b2b43d4433254abd889dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 56,
+      "unknown" : 0,
+      "total" : 59
+    },
+    "items" : [ {
+      "uid" : "d73e048ac0e5f586",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/d73e048ac0e5f586",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884602,
+        "stop" : 1701053884685,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "efda4d7288500a5e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/efda4d7288500a5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052058848,
+        "stop" : 1701052058940,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "91d731725cc54731",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/91d731725cc54731",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793166755,
+        "stop" : 1700793166855,
+        "duration" : 100
+      }
+    }, {
+      "uid" : "24db6b3acf444cb3",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/24db6b3acf444cb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723098370,
+        "stop" : 1700723099098,
+        "duration" : 728
+      }
+    }, {
+      "uid" : "864619e5389f382c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/864619e5389f382c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710274623,
+        "stop" : 1700710274730,
+        "duration" : 107
+      }
+    } ]
+  },
+  "8b652a18a2d4c13f4060a0e1dc5bce30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc3a96a5c7a154b2",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/bc3a96a5c7a154b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863734974,
+        "stop" : 1699863735069,
+        "duration" : 95
+      }
+    } ]
+  },
+  "1b3839aa78db48d6e0b7da121e28f7ce" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "619dfb1fd460c98f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/619dfb1fd460c98f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15003",
+      "time" : {
+        "start" : 1701053883997,
+        "stop" : 1701053884072,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "3c7a5019dd6ee9aa",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/3c7a5019dd6ee9aa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15003",
+      "time" : {
+        "start" : 1701052058210,
+        "stop" : 1701052058290,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "622e2e805fbde4ea",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/622e2e805fbde4ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793164723,
+        "stop" : 1700793165995,
+        "duration" : 1272
+      }
+    }, {
+      "uid" : "bc0ccc9f20dc0cc2",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/bc0ccc9f20dc0cc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723096794,
+        "stop" : 1700723097268,
+        "duration" : 474
+      }
+    }, {
+      "uid" : "ed21529217c742f6",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/ed21529217c742f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710273272,
+        "stop" : 1700710273927,
+        "duration" : 655
+      }
+    } ]
+  },
+  "3ac732ea950bf94eca09ea411d84df9c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22ae95ac692ce57b",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/22ae95ac692ce57b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863722907,
+        "stop" : 1699863722960,
+        "duration" : 53
+      }
+    } ]
+  },
+  "217d70b45cb580364612ad2021f042ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "46e0d7423c799590",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/204/allure/#testresult/46e0d7423c799590",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700012862000,
+        "stop" : 1700012863237,
+        "duration" : 1237
+      }
+    }, {
+      "uid" : "df7f3dd902db4c99",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/203/allure/#testresult/df7f3dd902db4c99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699945928452,
+        "stop" : 1699945929971,
+        "duration" : 1519
+      }
+    }, {
+      "uid" : "d4ad25af71f69ceb",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/202/allure/#testresult/d4ad25af71f69ceb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699931306711,
+        "stop" : 1699931307472,
+        "duration" : 761
+      }
+    }, {
+      "uid" : "b937736dfd96473b",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/201/allure/#testresult/b937736dfd96473b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699931225633,
+        "stop" : 1699931226973,
+        "duration" : 1340
+      }
+    }, {
+      "uid" : "ca585431ab9a56f5",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/200/allure/#testresult/ca585431ab9a56f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699930617116,
+        "stop" : 1699930617716,
+        "duration" : 600
+      }
+    } ]
+  },
+  "ac7a810375b4a14e068ae334e95444d0" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 32,
+      "unknown" : 0,
+      "total" : 37
+    },
+    "items" : [ {
+      "uid" : "c8db1f8e87a68e82",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/c8db1f8e87a68e82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053882527,
+        "stop" : 1701053882639,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "25bacbc56d3340f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/25bacbc56d3340f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052056163,
+        "stop" : 1701052056699,
+        "duration" : 536
+      }
+    }, {
+      "uid" : "c9c8a409af6d850a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/c9c8a409af6d850a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793156466,
+        "stop" : 1700793157325,
+        "duration" : 859
+      }
+    }, {
+      "uid" : "f6de7f8e65a3781f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/f6de7f8e65a3781f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723092643,
+        "stop" : 1700723092814,
+        "duration" : 171
+      }
+    }, {
+      "uid" : "f01db51a314ef0e6",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/f01db51a314ef0e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710263151,
+        "stop" : 1700710263919,
+        "duration" : 768
+      }
+    } ]
+  },
+  "74601f7a45924bf99d520d63aed51fd3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9eb82cc19a59d160",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/159/allure/#testresult/9eb82cc19a59d160",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699497700818,
+        "stop" : 1699497700881,
+        "duration" : 63
+      }
+    }, {
+      "uid" : "b3c48c709ab038e1",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/158/allure/#testresult/b3c48c709ab038e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699497445679,
+        "stop" : 1699497445761,
+        "duration" : 82
+      }
+    } ]
+  },
+  "82e92944d0914a7f07b3d2abec368620" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 23
+    },
+    "items" : [ {
+      "uid" : "22df3ad886bd5520",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/22df3ad886bd5520",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884954,
+        "stop" : 1701053885034,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "7e59b37d95c1c832",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/7e59b37d95c1c832",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052059218,
+        "stop" : 1701052059299,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "28bc7cbb97f11c8c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/28bc7cbb97f11c8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793167166,
+        "stop" : 1700793167249,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "2fa82e2c75d9fd80",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/2fa82e2c75d9fd80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723100362,
+        "stop" : 1700723100491,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "79ff55b9c907ef4b",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/79ff55b9c907ef4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710275051,
+        "stop" : 1700710275146,
+        "duration" : 95
+      }
+    } ]
+  },
+  "f057b9a598e2cba183ddd854d23ec13f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "6f09f31048aa5127",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/207/allure/#testresult/6f09f31048aa5127",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1700017002852,
+        "stop" : 1700017002939,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "94013643f8eb6716",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/206/allure/#testresult/94013643f8eb6716",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700013202345,
+        "stop" : 1700013202489,
+        "duration" : 144
+      }
+    }, {
+      "uid" : "cb53677dd932a86",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/205/allure/#testresult/cb53677dd932a86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700012902231,
+        "stop" : 1700012902935,
+        "duration" : 704
+      }
+    } ]
+  },
+  "e0ac91ef7180b7fcce19c428193c8ef5" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 31,
+      "unknown" : 0,
+      "total" : 34
+    },
+    "items" : [ {
+      "uid" : "d88e2941f94793c7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/d88e2941f94793c7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15017",
+      "time" : {
+        "start" : 1701053883104,
+        "stop" : 1701053883180,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "c34874952631f790",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/c34874952631f790",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15017",
+      "time" : {
+        "start" : 1701052057199,
+        "stop" : 1701052057283,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "59cd48c994041559",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/59cd48c994041559",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793159662,
+        "stop" : 1700793159921,
+        "duration" : 259
+      }
+    }, {
+      "uid" : "8bd2c9204fbd7034",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/8bd2c9204fbd7034",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723094027,
+        "stop" : 1700723094641,
+        "duration" : 614
+      }
+    }, {
+      "uid" : "9350c380209e845f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/9350c380209e845f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710267137,
+        "stop" : 1700710268774,
+        "duration" : 1637
+      }
+    } ]
+  },
+  "e4bf9553df655fbcaf73daf2008e3b4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "38119e11afd1e458",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/164/allure/#testresult/38119e11afd1e458",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699508062342,
+        "stop" : 1699508062386,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "ea73e62f01ad2bf6",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/163/allure/#testresult/ea73e62f01ad2bf6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699498360940,
+        "stop" : 1699498360989,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "de1d299053254c09",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/162/allure/#testresult/de1d299053254c09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699498151663,
+        "stop" : 1699498151710,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "af4ecc57211c8a74",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/161/allure/#testresult/af4ecc57211c8a74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699498022525,
+        "stop" : 1699498022597,
+        "duration" : 72
+      }
+    } ]
+  },
+  "cc3bbdb97d5ab359efda7a87104ba31a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "117d0366351470fe",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/117d0366351470fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863734016,
+        "stop" : 1699863734113,
+        "duration" : 97
+      }
+    } ]
+  },
+  "b67de26df47c1f459346325f0d884f66" : {
+    "statistic" : {
+      "failed" : 31,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 49
+    },
+    "items" : [ {
+      "uid" : "61d0168d053fb4fa",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/61d0168d053fb4fa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 12009",
+      "time" : {
+        "start" : 1701053885124,
+        "stop" : 1701053885226,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "76a99087db764b93",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/76a99087db764b93",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 12009",
+      "time" : {
+        "start" : 1701052059395,
+        "stop" : 1701052059474,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "c10b4ee9316b0407",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/c10b4ee9316b0407",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 4169521 != 0",
+      "time" : {
+        "start" : 1700793167341,
+        "stop" : 1700793174850,
+        "duration" : 7509
+      }
+    }, {
+      "uid" : "a55c2ffde3ea88b4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/a55c2ffde3ea88b4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 4169521 != 0",
+      "time" : {
+        "start" : 1700723100629,
+        "stop" : 1700723106612,
+        "duration" : 5983
+      }
+    }, {
+      "uid" : "13a3c9c78755d035",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/13a3c9c78755d035",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 4169521 != 0",
+      "time" : {
+        "start" : 1700710275253,
+        "stop" : 1700710283493,
+        "duration" : 8240
+      }
+    } ]
+  },
+  "ceee2abd5428aa69f3c17da2351248ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38464b683b8abe16",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/157/allure/#testresult/38464b683b8abe16",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1699421360027,
+        "stop" : 1699421360069,
+        "duration" : 42
+      }
+    } ]
+  },
+  "cb41bd139e929d9eef92825c451cc27a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c0e6e8a2fb5327b",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/2c0e6e8a2fb5327b",
+      "status" : "broken",
+      "statusDetails" : "Exception: oops",
+      "time" : {
+        "start" : 1699341824228,
+        "stop" : 1699341824228,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e0099c64f65e6936fb1d14fe88b6d42a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 58,
+      "unknown" : 0,
+      "total" : 62
+    },
+    "items" : [ {
+      "uid" : "10e9290527f5af9f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/10e9290527f5af9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855339,
+        "stop" : 1701053855425,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "90f0f52244669d0a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/90f0f52244669d0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052053555,
+        "stop" : 1701052053651,
+        "duration" : 96
+      }
+    }, {
+      "uid" : "6aec61a7e40c148e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/6aec61a7e40c148e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793146212,
+        "stop" : 1700793146289,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "5b25113199df4782",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/5b25113199df4782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723082010,
+        "stop" : 1700723082120,
+        "duration" : 110
+      }
+    }, {
+      "uid" : "9dd9fd062cea2f0e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/9dd9fd062cea2f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710260876,
+        "stop" : 1700710260987,
+        "duration" : 111
+      }
+    } ]
+  },
+  "598ed1467c6fffce23aa7b00243b9115" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 24,
+      "unknown" : 0,
+      "total" : 28
+    },
+    "items" : [ {
+      "uid" : "68a9859144b8d02f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/68a9859144b8d02f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15017",
+      "time" : {
+        "start" : 1701053883532,
+        "stop" : 1701053883606,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "cfc15c350fea14cb",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/cfc15c350fea14cb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15017",
+      "time" : {
+        "start" : 1701052057721,
+        "stop" : 1701052057804,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "280f7274cf402007",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/280f7274cf402007",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793160634,
+        "stop" : 1700793161251,
+        "duration" : 617
+      }
+    }, {
+      "uid" : "b4cc3cf867dfc04c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/b4cc3cf867dfc04c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723094941,
+        "stop" : 1700723095776,
+        "duration" : 835
+      }
+    }, {
+      "uid" : "79a1922341542ab2",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/79a1922341542ab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710269452,
+        "stop" : 1700710271141,
+        "duration" : 1689
+      }
+    } ]
+  },
+  "551d20da9ecb930763eb0972717bb29c" : {
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 46,
+      "unknown" : 0,
+      "total" : 57
+    },
+    "items" : [ {
+      "uid" : "f8412bb47ac37b09",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/f8412bb47ac37b09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884788,
+        "stop" : 1701053884866,
+        "duration" : 78
+      }
+    }, {
+      "uid" : "da94b0c4b244d7de",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/da94b0c4b244d7de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052059047,
+        "stop" : 1701052059127,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "6e9b112b1c7e4fff",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/6e9b112b1c7e4fff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793166962,
+        "stop" : 1700793167055,
+        "duration" : 93
+      }
+    }, {
+      "uid" : "fc85343fd0780e21",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/fc85343fd0780e21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723099981,
+        "stop" : 1700723100182,
+        "duration" : 201
+      }
+    }, {
+      "uid" : "335cd26a5d8cd150",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/335cd26a5d8cd150",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710274845,
+        "stop" : 1700710274945,
+        "duration" : 100
+      }
+    } ]
+  },
+  "7a5e9f1daec8cef67f68e33df0b4a568" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 58,
+      "unknown" : 0,
+      "total" : 62
+    },
+    "items" : [ {
+      "uid" : "50ef0939d8228bec",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/50ef0939d8228bec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855243,
+        "stop" : 1701053855330,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "5c79ebbe1cad95cc",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/5c79ebbe1cad95cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052053463,
+        "stop" : 1701052053545,
+        "duration" : 82
+      }
+    }, {
+      "uid" : "883fb89ade05ac23",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/883fb89ade05ac23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793146125,
+        "stop" : 1700793146207,
+        "duration" : 82
+      }
+    }, {
+      "uid" : "9b5ab2007348ca23",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/9b5ab2007348ca23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723081879,
+        "stop" : 1700723082000,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "5a33e05d5bc2c423",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/5a33e05d5bc2c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710260771,
+        "stop" : 1700710260868,
+        "duration" : 97
+      }
+    } ]
+  },
+  "27e93514cead9bd361937a30c151b3c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "6f3a74f265f1c798",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/153/allure/#testresult/6f3a74f265f1c798",
+      "status" : "passed",
+      "statusDetails" : "XPASS 该Bug尚未修复",
+      "time" : {
+        "start" : 1699412378180,
+        "stop" : 1699412378180,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1e6fa5d4086e8393",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/152/allure/#testresult/1e6fa5d4086e8393",
+      "status" : "passed",
+      "statusDetails" : "XPASS 该Bug尚未修复",
+      "time" : {
+        "start" : 1699409624431,
+        "stop" : 1699409624432,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "30556f92fb8aeee5",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/148/allure/#testresult/30556f92fb8aeee5",
+      "status" : "passed",
+      "statusDetails" : "XPASS 该Bug尚未修复",
+      "time" : {
+        "start" : 1699341979821,
+        "stop" : 1699341979821,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9d51db1b1480ff23",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/9d51db1b1480ff23",
+      "status" : "passed",
+      "statusDetails" : "XPASS 该Bug尚未修复",
+      "time" : {
+        "start" : 1699341824292,
+        "stop" : 1699341824292,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f012b16fedcbab9c12f6246855f1b5e9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 14
+    },
+    "items" : [ {
+      "uid" : "6204536699cb1f90",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/195/allure/#testresult/6204536699cb1f90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699925685833,
+        "stop" : 1699925686291,
+        "duration" : 458
+      }
+    }, {
+      "uid" : "ebc37c73440715b6",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/194/allure/#testresult/ebc37c73440715b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699925480104,
+        "stop" : 1699925480697,
+        "duration" : 593
+      }
+    }, {
+      "uid" : "f7b564af4f4693d6",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/193/allure/#testresult/f7b564af4f4693d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699924659374,
+        "stop" : 1699924659873,
+        "duration" : 499
+      }
+    }, {
+      "uid" : "4e45ebe90143dc79",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/192/allure/#testresult/4e45ebe90143dc79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699865467593,
+        "stop" : 1699865467909,
+        "duration" : 316
+      }
+    }, {
+      "uid" : "26be7da964d912d6",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/191/allure/#testresult/26be7da964d912d6",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPSConnectionPool(host='192.168.111.191', port=443): Max retries exceeded with url: /api/v1/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E21ECE6CB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1699865323393,
+        "stop" : 1699865325447,
+        "duration" : 2054
+      }
+    } ]
+  },
+  "4ab3530e069f748a6cfc0ad9f71f1bea" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 45,
+      "unknown" : 0,
+      "total" : 52
+    },
+    "items" : [ {
+      "uid" : "d3b1ac4d11b3268d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/d3b1ac4d11b3268d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15017",
+      "time" : {
+        "start" : 1701053881842,
+        "stop" : 1701053881929,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "fba7d1f9daff30ad",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/fba7d1f9daff30ad",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15017",
+      "time" : {
+        "start" : 1701052055860,
+        "stop" : 1701052055939,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "4f6097f71261378a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/4f6097f71261378a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793154774,
+        "stop" : 1700793154915,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "59fd6746254a9762",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/59fd6746254a9762",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723091630,
+        "stop" : 1700723091837,
+        "duration" : 207
+      }
+    }, {
+      "uid" : "9445b2693ade7c7c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/9445b2693ade7c7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710261524,
+        "stop" : 1700710262011,
+        "duration" : 487
+      }
+    } ]
+  },
+  "4b6812a597e9870293633211cb40c96f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "c366fc8a0afaad2f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/c366fc8a0afaad2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855996,
+        "stop" : 1701053856096,
+        "duration" : 100
+      }
+    }, {
+      "uid" : "a8d6a5891a59a334",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/a8d6a5891a59a334",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052054112,
+        "stop" : 1701052054217,
+        "duration" : 105
+      }
+    }, {
+      "uid" : "7591032c344003f8",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/7591032c344003f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793146736,
+        "stop" : 1700793146842,
+        "duration" : 106
+      }
+    }, {
+      "uid" : "6bd60b02100e24dd",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/6bd60b02100e24dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723082802,
+        "stop" : 1700723082955,
+        "duration" : 153
+      }
+    } ]
+  },
+  "9554cd568ee6cb84ae0f236bf7c15573" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "67dd5602acf92d0d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/153/allure/#testresult/67dd5602acf92d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699412377983,
+        "stop" : 1699412377983,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b9978dc09f9dfe56",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/152/allure/#testresult/b9978dc09f9dfe56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699409624207,
+        "stop" : 1699409624207,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ea62c477090a7c9e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/148/allure/#testresult/ea62c477090a7c9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341979604,
+        "stop" : 1699341979605,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d64a74f3cc052ae6",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/d64a74f3cc052ae6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341823828,
+        "stop" : 1699341823829,
+        "duration" : 1
+      }
+    } ]
+  },
+  "6df502dca962dfd071ad4601def025bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec1ad2fe4589272c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/186/allure/#testresult/ec1ad2fe4589272c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699861596704,
+        "stop" : 1699861596799,
+        "duration" : 95
+      }
+    } ]
+  },
+  "594e5ab973dfe9095175819eb64cc6da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab2fc520a0276e7e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/ab2fc520a0276e7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863732677,
+        "stop" : 1699863732811,
+        "duration" : 134
+      }
+    } ]
+  },
+  "d0f7d09e03424787112cfbe628a645c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 69,
+      "unknown" : 0,
+      "total" : 75
+    },
+    "items" : [ {
+      "uid" : "1a7cf48cc6c9fb60",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/1a7cf48cc6c9fb60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053831407,
+        "stop" : 1701053831448,
+        "duration" : 41
+      }
+    }, {
+      "uid" : "6149b0f4573a0b60",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/6149b0f4573a0b60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052044794,
+        "stop" : 1701052044833,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "7dc08f95cbc1e2eb",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/7dc08f95cbc1e2eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793138357,
+        "stop" : 1700793138397,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "aad65423f6bd6cc0",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/aad65423f6bd6cc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723075114,
+        "stop" : 1700723075161,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "f02f45ee9aded977",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/f02f45ee9aded977",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710254581,
+        "stop" : 1700710254626,
+        "duration" : 45
+      }
+    } ]
+  },
+  "04cbea326ebe002ec73e110ef6741ebe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "e076920fbc74177d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/204/allure/#testresult/e076920fbc74177d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700012859706,
+        "stop" : 1700012860229,
+        "duration" : 523
+      }
+    }, {
+      "uid" : "610247029ac327b7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/203/allure/#testresult/610247029ac327b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699945926889,
+        "stop" : 1699945927018,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "6a3acd404abbd6dc",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/202/allure/#testresult/6a3acd404abbd6dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699931305535,
+        "stop" : 1699931305875,
+        "duration" : 340
+      }
+    }, {
+      "uid" : "1986730187694975",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/201/allure/#testresult/1986730187694975",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699931224034,
+        "stop" : 1699931224575,
+        "duration" : 541
+      }
+    }, {
+      "uid" : "eb2360f6a271b95a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/200/allure/#testresult/eb2360f6a271b95a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699930616164,
+        "stop" : 1699930616562,
+        "duration" : 398
+      }
+    } ]
+  },
+  "5c868bcfd836639010e4657a05c3c23f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 44,
+      "unknown" : 0,
+      "total" : 47
+    },
+    "items" : [ {
+      "uid" : "940e35d69ef0e61e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/940e35d69ef0e61e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855757,
+        "stop" : 1701053855890,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "45e401ccded7b0d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/45e401ccded7b0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052053930,
+        "stop" : 1701052054009,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "9a5f8125d41d5e91",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/9a5f8125d41d5e91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793146558,
+        "stop" : 1700793146641,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "5ee1b41d67dc756",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/5ee1b41d67dc756",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723082549,
+        "stop" : 1700723082658,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "b2dd548c67770a36",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/b2dd548c67770a36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710261310,
+        "stop" : 1700710261411,
+        "duration" : 101
+      }
+    } ]
+  },
+  "82d682fb6c88a580ccc70b35aa870b85" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6da94ca8e150b42",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/174/allure/#testresult/a6da94ca8e150b42",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 10002",
+      "time" : {
+        "start" : 1699520844873,
+        "stop" : 1699520844926,
+        "duration" : 53
+      }
+    } ]
+  },
+  "d64c00fb8d5ef9a563dc9a875edbda4e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "67f245d8e97b6ee6",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/159/allure/#testresult/67f245d8e97b6ee6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699497699899,
+        "stop" : 1699497700818,
+        "duration" : 919
+      }
+    }, {
+      "uid" : "6a2ba09ea6536fec",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/158/allure/#testresult/6a2ba09ea6536fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699497445185,
+        "stop" : 1699497445643,
+        "duration" : 458
+      }
+    } ]
+  },
+  "89dbad018ea8b4f27e423aad4575c3a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be738fbbe42c69b4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/be738fbbe42c69b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863748581,
+        "stop" : 1699863757051,
+        "duration" : 8470
+      }
+    } ]
+  },
+  "f840cef8965810553ffafc0e0c13c03f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1097f5b9e349f57d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/167/allure/#testresult/1097f5b9e349f57d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699509524405,
+        "stop" : 1699509524467,
+        "duration" : 62
+      }
+    } ]
+  },
+  "9b16eec142911123d54579fc17f34d2b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b775904013202e5",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/159/allure/#testresult/b775904013202e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699497699367,
+        "stop" : 1699497699884,
+        "duration" : 517
+      }
+    }, {
+      "uid" : "68f53967c948556b",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/158/allure/#testresult/68f53967c948556b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699497444540,
+        "stop" : 1699497445172,
+        "duration" : 632
+      }
+    } ]
+  },
+  "c0cd4c8e04beb9d75a516e169b832c74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22bf34b93628aac3",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/22bf34b93628aac3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341824434,
+        "stop" : 1699341824435,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1dc0876b3f5945482cce73d619f565f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "a11a2847226dff6f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/164/allure/#testresult/a11a2847226dff6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699508058619,
+        "stop" : 1699508059262,
+        "duration" : 643
+      }
+    }, {
+      "uid" : "3f0fc26ae186746d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/163/allure/#testresult/3f0fc26ae186746d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699498358308,
+        "stop" : 1699498359174,
+        "duration" : 866
+      }
+    }, {
+      "uid" : "7873e3ec50f433e7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/162/allure/#testresult/7873e3ec50f433e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699498146308,
+        "stop" : 1699498148862,
+        "duration" : 2554
+      }
+    }, {
+      "uid" : "6d400a89072371a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/161/allure/#testresult/6d400a89072371a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699498019344,
+        "stop" : 1699498020695,
+        "duration" : 1351
+      }
+    } ]
+  },
+  "8286156033cafe06c79cb51519f7eb5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6258766cd354562",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/f6258766cd354562",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863729595,
+        "stop" : 1699863730065,
+        "duration" : 470
+      }
+    } ]
+  },
+  "23163b031e80606226c53cfecbcef373" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 58,
+      "unknown" : 0,
+      "total" : 62
+    },
+    "items" : [ {
+      "uid" : "3e4e16fcffea5d84",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/3e4e16fcffea5d84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053854962,
+        "stop" : 1701053855045,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "c8f16ac738c2b5dc",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/c8f16ac738c2b5dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052053162,
+        "stop" : 1701052053257,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "393424bde748a511",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/393424bde748a511",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793145858,
+        "stop" : 1700793145941,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "fc56263ced856644",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/fc56263ced856644",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723081523,
+        "stop" : 1700723081626,
+        "duration" : 103
+      }
+    }, {
+      "uid" : "9f855c98855fd92c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/9f855c98855fd92c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710260478,
+        "stop" : 1700710260564,
+        "duration" : 86
+      }
+    } ]
+  },
+  "f687eb43005b2eeceaaf74b9258a30af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fab0ed3df224290e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/fab0ed3df224290e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863731408,
+        "stop" : 1699863731531,
+        "duration" : 123
+      }
+    } ]
+  },
+  "f9d92dcb6224f7382c9a7d4d830f5132" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5bf9edd2db01e6a7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/5bf9edd2db01e6a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863733780,
+        "stop" : 1699863733889,
+        "duration" : 109
+      }
+    } ]
+  },
+  "a02967a6248e324343febe330aca2acb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "862c64e5c5e234a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/862c64e5c5e234a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863731923,
+        "stop" : 1699863732098,
+        "duration" : 175
+      }
+    } ]
+  },
+  "4c6b9177363a41201e8db2490305e01e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "59a9d825479d29c0",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/164/allure/#testresult/59a9d825479d29c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699508062391,
+        "stop" : 1699508062436,
+        "duration" : 45
+      }
+    }, {
+      "uid" : "c81f1c87d0127a54",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/163/allure/#testresult/c81f1c87d0127a54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699498360989,
+        "stop" : 1699498361039,
+        "duration" : 50
+      }
+    }, {
+      "uid" : "62805da9c166eba7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/162/allure/#testresult/62805da9c166eba7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699498151710,
+        "stop" : 1699498151758,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "cdaa6eb850fb3ca",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/161/allure/#testresult/cdaa6eb850fb3ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699498022608,
+        "stop" : 1699498022675,
+        "duration" : 67
+      }
+    } ]
+  },
+  "e74085c3f26c299f0fc91e45d37db0db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 19,
+      "unknown" : 0,
+      "total" : 22
+    },
+    "items" : [ {
+      "uid" : "c013a999728833ef",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/209/allure/#testresult/c013a999728833ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700025524929,
+        "stop" : 1700025525060,
+        "duration" : 131
+      }
+    }, {
+      "uid" : "32bf33ddc5bb344",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/208/allure/#testresult/32bf33ddc5bb344",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1700018633336,
+        "stop" : 1700018633412,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "e1390ea302fb8233",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/207/allure/#testresult/e1390ea302fb8233",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1700017001666,
+        "stop" : 1700017001744,
+        "duration" : 78
+      }
+    }, {
+      "uid" : "8122249f3a28928a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/206/allure/#testresult/8122249f3a28928a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700013198992,
+        "stop" : 1700013199143,
+        "duration" : 151
+      }
+    }, {
+      "uid" : "45733c9c5bcee583",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/205/allure/#testresult/45733c9c5bcee583",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700012897460,
+        "stop" : 1700012897580,
+        "duration" : 120
+      }
+    } ]
+  },
+  "9808a5149e502eb2e0a631852815d38b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c66fddd68753c9b2",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/186/allure/#testresult/c66fddd68753c9b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699861596474,
+        "stop" : 1699861596585,
+        "duration" : 111
+      }
+    } ]
+  },
+  "ecfb6d26156ae10182b1a59a201fda94" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 53,
+      "unknown" : 0,
+      "total" : 56
+    },
+    "items" : [ {
+      "uid" : "b80d06fe408d6a1a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/b80d06fe408d6a1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053853882,
+        "stop" : 1701053853966,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "936938e38bdcff14",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/936938e38bdcff14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052051830,
+        "stop" : 1701052051912,
+        "duration" : 82
+      }
+    }, {
+      "uid" : "56da20f31cce9870",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/56da20f31cce9870",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793144689,
+        "stop" : 1700793144790,
+        "duration" : 101
+      }
+    }, {
+      "uid" : "e6821c78230022f7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/e6821c78230022f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723079958,
+        "stop" : 1700723080131,
+        "duration" : 173
+      }
+    }, {
+      "uid" : "a980adbd693d9362",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/a980adbd693d9362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710258637,
+        "stop" : 1700710258718,
+        "duration" : 81
+      }
+    } ]
+  },
+  "087800bb57fad3cf5aa0bbac1af0242c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb6cf3b19e33ede5",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/cb6cf3b19e33ede5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863733086,
+        "stop" : 1699863733247,
+        "duration" : 161
+      }
+    } ]
+  },
+  "ca1fce51ea2525e79b082931ac0831d0" : {
+    "statistic" : {
+      "failed" : 16,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 40,
+      "unknown" : 0,
+      "total" : 59
+    },
+    "items" : [ {
+      "uid" : "fff6bc56bda299b9",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/fff6bc56bda299b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884695,
+        "stop" : 1701053884784,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "a1f2b28fa781ace6",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/a1f2b28fa781ace6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052058947,
+        "stop" : 1701052059039,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "7400a3a6afed214e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/7400a3a6afed214e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793166860,
+        "stop" : 1700793166956,
+        "duration" : 96
+      }
+    }, {
+      "uid" : "67af0bdc8877f912",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/67af0bdc8877f912",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723099368,
+        "stop" : 1700723099973,
+        "duration" : 605
+      }
+    }, {
+      "uid" : "6e4aeb29cf1447a7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/6e4aeb29cf1447a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710274735,
+        "stop" : 1700710274838,
+        "duration" : 103
+      }
+    } ]
+  },
+  "3dc0aa15cfc0f6fb25e6f0de9bfe5416" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "e74f78e36ea206f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/153/allure/#testresult/e74f78e36ea206f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699412378186,
+        "stop" : 1699412378187,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "81da6547972f72bf",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/152/allure/#testresult/81da6547972f72bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699409624441,
+        "stop" : 1699409624442,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "facd30db474f095f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/148/allure/#testresult/facd30db474f095f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341979829,
+        "stop" : 1699341979829,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8181b08fa38c6942",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/8181b08fa38c6942",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341824307,
+        "stop" : 1699341824307,
+        "duration" : 0
+      }
+    } ]
+  },
+  "47634b611bea1f6a7c64b35c9b1af54c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 60,
+      "unknown" : 0,
+      "total" : 64
+    },
+    "items" : [ {
+      "uid" : "b0d2eb9d30be4bdd",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/b0d2eb9d30be4bdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053854106,
+        "stop" : 1701053854407,
+        "duration" : 301
+      }
+    }, {
+      "uid" : "377e752d38b860ab",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/377e752d38b860ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052052058,
+        "stop" : 1701052052690,
+        "duration" : 632
+      }
+    }, {
+      "uid" : "ce5846308696e72d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/ce5846308696e72d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793144960,
+        "stop" : 1700793145662,
+        "duration" : 702
+      }
+    }, {
+      "uid" : "562ec76e697f43a1",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/562ec76e697f43a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723080363,
+        "stop" : 1700723080493,
+        "duration" : 130
+      }
+    }, {
+      "uid" : "852cdd7ac04871d4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/852cdd7ac04871d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710258845,
+        "stop" : 1700710259251,
+        "duration" : 406
+      }
+    } ]
+  },
+  "5dcf9b26d54c03b7ca2e148de4a33825" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 24,
+      "unknown" : 0,
+      "total" : 28
+    },
+    "items" : [ {
+      "uid" : "a84009bc1191c153",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/a84009bc1191c153",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15017",
+      "time" : {
+        "start" : 1701053883695,
+        "stop" : 1701053883771,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "6ff52bbf1aa64a75",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/6ff52bbf1aa64a75",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15017",
+      "time" : {
+        "start" : 1701052057900,
+        "stop" : 1701052057981,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "734e04dd15e91906",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/734e04dd15e91906",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793161270,
+        "stop" : 1700793163515,
+        "duration" : 2245
+      }
+    }, {
+      "uid" : "bd68ae4a9087ef05",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/bd68ae4a9087ef05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723095783,
+        "stop" : 1700723096457,
+        "duration" : 674
+      }
+    }, {
+      "uid" : "eb31d83359e0e565",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/eb31d83359e0e565",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710271156,
+        "stop" : 1700710272139,
+        "duration" : 983
+      }
+    } ]
+  },
+  "5e80e5a90ae8a4a086dd7ba4c99c1d63" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b8fe4d06db564e7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/8b8fe4d06db564e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863758207,
+        "stop" : 1699863758458,
+        "duration" : 251
+      }
+    } ]
+  },
+  "2a98706d5b23476cb2df292edea3b646" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7df873eb7549bf01",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/168/allure/#testresult/7df873eb7549bf01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699510299660,
+        "stop" : 1699510299710,
+        "duration" : 50
+      }
+    } ]
+  },
+  "09715b2cf90e9a8ee78a6f96b7e27ba4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "565681435b112d76",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/565681435b112d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863733388,
+        "stop" : 1699863733528,
+        "duration" : 140
+      }
+    } ]
+  },
+  "64b645d6da66adeccb660b2fe1e445f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60ebd4388de0def4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/60ebd4388de0def4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863730086,
+        "stop" : 1699863731257,
+        "duration" : 1171
+      }
+    } ]
+  },
+  "f1d645c8233002f62e9022e2eb9884aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dffd7c992057b8de",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/157/allure/#testresult/dffd7c992057b8de",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1699421359967,
+        "stop" : 1699421360011,
+        "duration" : 44
+      }
+    } ]
+  },
+  "aee58aafe0ac512e8eb340e8e1c21b75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "32b5894a7ba7f25a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/153/allure/#testresult/32b5894a7ba7f25a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699412378191,
+        "stop" : 1699412378191,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1b0aea2e01c96c2e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/152/allure/#testresult/1b0aea2e01c96c2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699409624446,
+        "stop" : 1699409624446,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dffddd261c0a48e8",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/148/allure/#testresult/dffddd261c0a48e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341979835,
+        "stop" : 1699341979835,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec602ecdce684fa4",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/ec602ecdce684fa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341824321,
+        "stop" : 1699341824321,
+        "duration" : 0
+      }
+    } ]
+  },
+  "603b94a2b1a6ce1bb3d1e816280200ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "584cd141e1550aff",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/584cd141e1550aff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341824440,
+        "stop" : 1699341824441,
+        "duration" : 1
+      }
+    } ]
+  },
+  "df4f974e2900e3d83f454a4dc60ae8d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "351d8f0c265490b6",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/351d8f0c265490b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856371,
+        "stop" : 1701053856556,
+        "duration" : 185
+      }
+    }, {
+      "uid" : "4fd789118d12cb37",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/4fd789118d12cb37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052054516,
+        "stop" : 1701052054726,
+        "duration" : 210
+      }
+    }, {
+      "uid" : "5640c4a079ccb7ca",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/5640c4a079ccb7ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793147096,
+        "stop" : 1700793147285,
+        "duration" : 189
+      }
+    }, {
+      "uid" : "ac1aa4c8770752c1",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/ac1aa4c8770752c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723083463,
+        "stop" : 1700723083838,
+        "duration" : 375
+      }
+    } ]
+  },
+  "85e156063493fdc4acfa0f5dbc2e3f3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 58,
+      "unknown" : 0,
+      "total" : 62
+    },
+    "items" : [ {
+      "uid" : "821654903861a9de",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/821654903861a9de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855051,
+        "stop" : 1701053855136,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "cac3e87ab9ea8bb3",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/cac3e87ab9ea8bb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052053263,
+        "stop" : 1701052053360,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "c92a47df22bf6a9c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/c92a47df22bf6a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793145946,
+        "stop" : 1700793146030,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "3548b2c93ab7f056",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/3548b2c93ab7f056",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723081637,
+        "stop" : 1700723081751,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "941852c41d135d7b",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/941852c41d135d7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710260569,
+        "stop" : 1700710260664,
+        "duration" : 95
+      }
+    } ]
+  },
+  "768a47a92a0c86b7db5f200ea59e7f91" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb1f74a6eba7d6c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/bb1f74a6eba7d6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863758489,
+        "stop" : 1699863759232,
+        "duration" : 743
+      }
+    } ]
+  },
+  "ac2f75f6895ebfa1560937b9c660d1fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d8c868c8a2ab2f7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/9d8c868c8a2ab2f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863722960,
+        "stop" : 1699863729067,
+        "duration" : 6107
+      }
+    } ]
+  },
+  "23cb52147439a9b7e57a6b13e3a1fb0b" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 12
+    },
+    "items" : [ {
+      "uid" : "5f9492988590e342",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/5f9492988590e342",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 12009",
+      "time" : {
+        "start" : 1701053885295,
+        "stop" : 1701053885389,
+        "duration" : 94
+      }
+    }, {
+      "uid" : "89917e212798eb7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/89917e212798eb7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 12009",
+      "time" : {
+        "start" : 1701052059590,
+        "stop" : 1701052059714,
+        "duration" : 124
+      }
+    }, {
+      "uid" : "ac163efe8657c42e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/ac163efe8657c42e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793175586,
+        "stop" : 1700793180149,
+        "duration" : 4563
+      }
+    }, {
+      "uid" : "a483a4c2c9ad9c6a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/a483a4c2c9ad9c6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723106963,
+        "stop" : 1700723112828,
+        "duration" : 5865
+      }
+    }, {
+      "uid" : "1e82cd6025533c73",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/1e82cd6025533c73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710283966,
+        "stop" : 1700710289291,
+        "duration" : 5325
+      }
+    } ]
+  },
+  "f213fbb972e676f718ed69075b0e08b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dcd1017933993b0",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/dcd1017933993b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863732230,
+        "stop" : 1699863732353,
+        "duration" : 123
+      }
+    } ]
+  },
+  "5e17cac51ad94801d17a5d22af63b657" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "306bf9d7025e50c0",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/306bf9d7025e50c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863733262,
+        "stop" : 1699863733388,
+        "duration" : 126
+      }
+    } ]
+  },
+  "4dd636cb2dcad00c0a8798dfcc60269d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c45de0987b5d902a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/c45de0987b5d902a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863722704,
+        "stop" : 1699863722814,
+        "duration" : 110
+      }
+    } ]
+  },
+  "d2371faca30f042be2e2f161e8c1c6eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "921359cd4a3edbbb",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/166/allure/#testresult/921359cd4a3edbbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699508702851,
+        "stop" : 1699508702916,
+        "duration" : 65
+      }
+    }, {
+      "uid" : "b93654c01fee664d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/165/allure/#testresult/b93654c01fee664d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699508549517,
+        "stop" : 1699508549771,
+        "duration" : 254
+      }
+    } ]
+  },
+  "29ecf5d9a5c65199a150cb1a16531edb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "8756099678417e42",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/207/allure/#testresult/8756099678417e42",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1700017003001,
+        "stop" : 1700017003096,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "552c0e15c1545af7",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/206/allure/#testresult/552c0e15c1545af7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700013202500,
+        "stop" : 1700013202601,
+        "duration" : 101
+      }
+    }, {
+      "uid" : "b70049658316d519",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/205/allure/#testresult/b70049658316d519",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700012902950,
+        "stop" : 1700012903046,
+        "duration" : 96
+      }
+    } ]
+  },
+  "a975a14dbbf52a015b9fc8d36d754aec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e32ebcbf4891350",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/5e32ebcbf4891350",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863734866,
+        "stop" : 1699863734959,
+        "duration" : 93
+      }
+    } ]
+  },
+  "0934353b0d9c1f75561577f05921b0f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "def1e30c75245340",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/def1e30c75245340",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863734756,
+        "stop" : 1699863734850,
+        "duration" : 94
+      }
+    } ]
+  },
+  "6dfa8ae491f80364f34a181efe24d972" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 56,
+      "unknown" : 0,
+      "total" : 59
+    },
+    "items" : [ {
+      "uid" : "df06be39613774db",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/df06be39613774db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884335,
+        "stop" : 1701053884419,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "5b8ddcf106149610",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/5b8ddcf106149610",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052058568,
+        "stop" : 1701052058654,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "d94119b99d35d6d6",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/d94119b99d35d6d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793166321,
+        "stop" : 1700793166464,
+        "duration" : 143
+      }
+    }, {
+      "uid" : "60c4400af21323a8",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/60c4400af21323a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723097649,
+        "stop" : 1700723097831,
+        "duration" : 182
+      }
+    }, {
+      "uid" : "d3e00d1b13c5b987",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/d3e00d1b13c5b987",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710274152,
+        "stop" : 1700710274296,
+        "duration" : 144
+      }
+    } ]
+  },
+  "51fdb0d955895ea773a80e494ddeaf85" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c36c97080f0f903c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/164/allure/#testresult/c36c97080f0f903c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699508062447,
+        "stop" : 1699508063970,
+        "duration" : 1523
+      }
+    } ]
+  },
+  "e86ba1f01353c4ee19fd34a1b938b195" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "e43a1dd46d7104fe",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/e43a1dd46d7104fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856653,
+        "stop" : 1701053856739,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "45753aad85110d1e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/45753aad85110d1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052054828,
+        "stop" : 1701052054930,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "98c3bb217c05de16",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/98c3bb217c05de16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793147387,
+        "stop" : 1700793147472,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "ca3d65f4fbbd19ba",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/ca3d65f4fbbd19ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723083980,
+        "stop" : 1700723084081,
+        "duration" : 101
+      }
+    } ]
+  },
+  "ae409b619ec3d1fccf5d75ac129792af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1c6698c7e81fb8",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/a1c6698c7e81fb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863759437,
+        "stop" : 1699863759609,
+        "duration" : 172
+      }
+    } ]
+  },
+  "51297d81165ae28dbe8dde86eb4e7d04" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "976658d6ce907952",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/148/allure/#testresult/976658d6ce907952",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert (1 + 2) == 5",
+      "time" : {
+        "start" : 1699341979844,
+        "stop" : 1699341979844,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "638b4a220491e7e8",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/638b4a220491e7e8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert (1 + 2) == 5",
+      "time" : {
+        "start" : 1699341824356,
+        "stop" : 1699341824357,
+        "duration" : 1
+      }
+    } ]
+  },
+  "187f6fee303d693e290201cf194924e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3031aa99dc71fb8f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/3031aa99dc71fb8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863734120,
+        "stop" : 1699863734222,
+        "duration" : 102
+      }
+    } ]
+  },
+  "ced122ee84fae12ae23d0e36a52b6b03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f967ea596f359b5e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/f967ea596f359b5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863748091,
+        "stop" : 1699863748572,
+        "duration" : 481
+      }
+    } ]
+  },
+  "2cdd1a7a720a71023969c55e260ea3df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8ca4500053593e0",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/e8ca4500053593e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863731705,
+        "stop" : 1699863731915,
+        "duration" : 210
+      }
+    } ]
+  },
+  "924d12e5817f9fe221d139163b92278b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 52,
+      "unknown" : 0,
+      "total" : 56
+    },
+    "items" : [ {
+      "uid" : "228c9504d7b46998",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/228c9504d7b46998",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053853973,
+        "stop" : 1701053854086,
+        "duration" : 113
+      }
+    }, {
+      "uid" : "eeec8fe80781274b",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/eeec8fe80781274b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052051921,
+        "stop" : 1701052052047,
+        "duration" : 126
+      }
+    }, {
+      "uid" : "188dd691e8a33b90",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/188dd691e8a33b90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793144805,
+        "stop" : 1700793144949,
+        "duration" : 144
+      }
+    }, {
+      "uid" : "c114f25b971b82b1",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/c114f25b971b82b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723080140,
+        "stop" : 1700723080349,
+        "duration" : 209
+      }
+    }, {
+      "uid" : "66fc0eeff73ff346",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/66fc0eeff73ff346",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710258724,
+        "stop" : 1700710258836,
+        "duration" : 112
+      }
+    } ]
+  },
+  "5f32b7f977f51ec9a457c54417086787" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b36e14081b3e9073",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/b36e14081b3e9073",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863757944,
+        "stop" : 1699863758176,
+        "duration" : 232
+      }
+    } ]
+  },
+  "d3686d4c5e70dc57d36a5a35d03b2353" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 24,
+      "unknown" : 0,
+      "total" : 28
+    },
+    "items" : [ {
+      "uid" : "c22d65391d29b506",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/c22d65391d29b506",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1701053883388,
+        "stop" : 1701053883465,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "4f0c6c834f55444",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/4f0c6c834f55444",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1701052057553,
+        "stop" : 1701052057639,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "9e3aedd29f5ab115",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/9e3aedd29f5ab115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793160027,
+        "stop" : 1700793160626,
+        "duration" : 599
+      }
+    }, {
+      "uid" : "bc0f311d3e852cde",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/bc0f311d3e852cde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723094763,
+        "stop" : 1700723094928,
+        "duration" : 165
+      }
+    }, {
+      "uid" : "7d2d2ff584cc78",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/7d2d2ff584cc78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710268891,
+        "stop" : 1700710269443,
+        "duration" : 552
+      }
+    } ]
+  },
+  "f6fa3e3d4805fbae635a6f8a68155dbc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "668aee6ce803b7fd",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/668aee6ce803b7fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863732515,
+        "stop" : 1699863732660,
+        "duration" : 145
+      }
+    } ]
+  },
+  "a40c5a8e53e0a4af43a1496e97c20d6d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4f8bfaf22e702fe",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/f4f8bfaf22e702fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863733528,
+        "stop" : 1699863733655,
+        "duration" : 127
+      }
+    } ]
+  },
+  "468e437f84cff2a215d72bc7ea710f23" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f2aa6566450d30",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/3f2aa6566450d30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863731265,
+        "stop" : 1699863731400,
+        "duration" : 135
+      }
+    } ]
+  },
+  "9b6a382d97cff1a3184095c5a8a1b022" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 28
+    },
+    "items" : [ {
+      "uid" : "f1a6d461d22c8f90",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/f1a6d461d22c8f90",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15021",
+      "time" : {
+        "start" : 1701053882953,
+        "stop" : 1701053883026,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "9e1dccb496a86789",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/9e1dccb496a86789",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15021",
+      "time" : {
+        "start" : 1701052057031,
+        "stop" : 1701052057123,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "b5311b3768d88613",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/b5311b3768d88613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793158492,
+        "stop" : 1700793159645,
+        "duration" : 1153
+      }
+    }, {
+      "uid" : "5fe35e280f84c20f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/5fe35e280f84c20f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723093903,
+        "stop" : 1700723094022,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "7dc7c9d4b8664eab",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/7dc7c9d4b8664eab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710266977,
+        "stop" : 1700710267130,
+        "duration" : 153
+      }
+    } ]
+  },
+  "9fc932c15ea6b6d7be9fb3b105b60110" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 46,
+      "unknown" : 0,
+      "total" : 52
+    },
+    "items" : [ {
+      "uid" : "8af9a49440ee30a6",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/8af9a49440ee30a6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15025",
+      "time" : {
+        "start" : 1701053882343,
+        "stop" : 1701053882454,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "42aac8d58f438381",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/42aac8d58f438381",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15025",
+      "time" : {
+        "start" : 1701052056003,
+        "stop" : 1701052056082,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "bccc923a877da9c3",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/bccc923a877da9c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793154926,
+        "stop" : 1700793156459,
+        "duration" : 1533
+      }
+    }, {
+      "uid" : "c421843aa5d0b7bd",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/c421843aa5d0b7bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723091843,
+        "stop" : 1700723092628,
+        "duration" : 785
+      }
+    }, {
+      "uid" : "207f7e0187b48994",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/207f7e0187b48994",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710262028,
+        "stop" : 1700710263136,
+        "duration" : 1108
+      }
+    } ]
+  },
+  "e8d87f584cfb019ca87b69ab0e19f7bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 23,
+      "unknown" : 0,
+      "total" : 23
+    },
+    "items" : [ {
+      "uid" : "d440709c11c54b8a",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/d440709c11c54b8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053885040,
+        "stop" : 1701053885117,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "b72597a020001c81",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/b72597a020001c81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052059305,
+        "stop" : 1701052059386,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "e1a59daf4a603f85",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/e1a59daf4a603f85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793167255,
+        "stop" : 1700793167334,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "8fb621c1679da159",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/8fb621c1679da159",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723100503,
+        "stop" : 1700723100617,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "2f1d425afff96c82",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/2f1d425afff96c82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710275151,
+        "stop" : 1700710275244,
+        "duration" : 93
+      }
+    } ]
+  },
+  "7287b9e57bb821c3a3f20fb9bc6d7094" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 62,
+      "unknown" : 0,
+      "total" : 66
+    },
+    "items" : [ {
+      "uid" : "c66a1adb2513c19c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/c66a1adb2513c19c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053851172,
+        "stop" : 1701053851288,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "fe2c1586862db907",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/fe2c1586862db907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052046367,
+        "stop" : 1701052046974,
+        "duration" : 607
+      }
+    }, {
+      "uid" : "f4e4237aad0991e8",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/f4e4237aad0991e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793141567,
+        "stop" : 1700793142043,
+        "duration" : 476
+      }
+    }, {
+      "uid" : "a370b9e643eaf321",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/a370b9e643eaf321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723076204,
+        "stop" : 1700723076833,
+        "duration" : 629
+      }
+    }, {
+      "uid" : "1fd915bb2726976e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/1fd915bb2726976e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710257305,
+        "stop" : 1700710257426,
+        "duration" : 121
+      }
+    } ]
+  },
+  "eb5a65b95f8fe189f741b81033eef325" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 60,
+      "unknown" : 0,
+      "total" : 64
+    },
+    "items" : [ {
+      "uid" : "6dfd8693b043a14d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/6dfd8693b043a14d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053854419,
+        "stop" : 1701053854865,
+        "duration" : 446
+      }
+    }, {
+      "uid" : "e5f65a0345b04447",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/e5f65a0345b04447",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052052703,
+        "stop" : 1701052053026,
+        "duration" : 323
+      }
+    }, {
+      "uid" : "443110b631c3a596",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/443110b631c3a596",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793145667,
+        "stop" : 1700793145766,
+        "duration" : 99
+      }
+    }, {
+      "uid" : "28fe46ec8c2ebd6b",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/28fe46ec8c2ebd6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723080501,
+        "stop" : 1700723081388,
+        "duration" : 887
+      }
+    }, {
+      "uid" : "ecf743079aceab48",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/ecf743079aceab48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710259266,
+        "stop" : 1700710260354,
+        "duration" : 1088
+      }
+    } ]
+  },
+  "ee87004ea4863b30c860fa44cf4d4fe2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f18fad7005dd538",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/6f18fad7005dd538",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341824419,
+        "stop" : 1699341824419,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e1155223033055118bdfd0efb3594aa0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3479c6a85382d2e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/c3479c6a85382d2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341824406,
+        "stop" : 1699341824407,
+        "duration" : 1
+      }
+    } ]
+  },
+  "c32e32e521b25e2182401903fa4c0f93" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e310e6bfd51be2b8",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/173/allure/#testresult/e310e6bfd51be2b8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 10002",
+      "time" : {
+        "start" : 1699520561523,
+        "stop" : 1699520561565,
+        "duration" : 42
+      }
+    } ]
+  },
+  "601a05bbb64f6bda4b1e3ea0bd6f0ca0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 44,
+      "unknown" : 0,
+      "total" : 47
+    },
+    "items" : [ {
+      "uid" : "412b0e2e1d84eb72",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/412b0e2e1d84eb72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855628,
+        "stop" : 1701053855748,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "8cf2eff99c08ee78",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/8cf2eff99c08ee78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052053839,
+        "stop" : 1701052053921,
+        "duration" : 82
+      }
+    }, {
+      "uid" : "9e88b525a046e38f",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/9e88b525a046e38f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793146467,
+        "stop" : 1700793146553,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "37ce665cbb98c5ad",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/37ce665cbb98c5ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723082418,
+        "stop" : 1700723082542,
+        "duration" : 124
+      }
+    }, {
+      "uid" : "5ea98522e2da8b12",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/5ea98522e2da8b12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710261208,
+        "stop" : 1700710261304,
+        "duration" : 96
+      }
+    } ]
+  },
+  "d2e6c31c92d8b5eef8e8edc95cda8328" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 14
+    },
+    "items" : [ {
+      "uid" : "5ad6cfbc6790e827",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/195/allure/#testresult/5ad6cfbc6790e827",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699925685668,
+        "stop" : 1699925685821,
+        "duration" : 153
+      }
+    }, {
+      "uid" : "b0be16b8f64014b8",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/194/allure/#testresult/b0be16b8f64014b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699925479336,
+        "stop" : 1699925480074,
+        "duration" : 738
+      }
+    }, {
+      "uid" : "7a0eac31399f45ff",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/193/allure/#testresult/7a0eac31399f45ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699924659145,
+        "stop" : 1699924659367,
+        "duration" : 222
+      }
+    }, {
+      "uid" : "5d965e6ce7d413d9",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/192/allure/#testresult/5d965e6ce7d413d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699865467279,
+        "stop" : 1699865467585,
+        "duration" : 306
+      }
+    }, {
+      "uid" : "c9b6ac52b71a018",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/191/allure/#testresult/c9b6ac52b71a018",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPSConnectionPool(host='192.168.111.191', port=443): Max retries exceeded with url: /api/v1/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E21F9FFB20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1699865321113,
+        "stop" : 1699865323165,
+        "duration" : 2052
+      }
+    } ]
+  },
+  "25c524717e2eb1cff005693b7d89b8a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 56,
+      "unknown" : 0,
+      "total" : 59
+    },
+    "items" : [ {
+      "uid" : "fd6e58307ef813af",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/fd6e58307ef813af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884517,
+        "stop" : 1701053884596,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "1f3b87424e0dcf44",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/1f3b87424e0dcf44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052058755,
+        "stop" : 1701052058842,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "b42ade185efbea52",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/b42ade185efbea52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793166611,
+        "stop" : 1700793166736,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "19510178f567503e",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/19510178f567503e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723097982,
+        "stop" : 1700723098361,
+        "duration" : 379
+      }
+    }, {
+      "uid" : "d7a742e9b7dd7114",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/d7a742e9b7dd7114",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710274455,
+        "stop" : 1700710274613,
+        "duration" : 158
+      }
+    } ]
+  },
+  "025f68165e9fb39ce5e47f2285410b9e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db62d0bc39034bd1",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/db62d0bc39034bd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863757083,
+        "stop" : 1699863757913,
+        "duration" : 830
+      }
+    } ]
+  },
+  "c08f8ed656fc855c7f9ce96b180a517c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6eeb345bedfa5729",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/168/allure/#testresult/6eeb345bedfa5729",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699510299603,
+        "stop" : 1699510299652,
+        "duration" : 49
+      }
+    } ]
+  },
+  "cebc421607062c084326dbe673c6d3d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c5723a593e87478",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/148/allure/#testresult/c5723a593e87478",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341979860,
+        "stop" : 1699341979860,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ebfc9ac9f67c0bbf",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/147/allure/#testresult/ebfc9ac9f67c0bbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699341824400,
+        "stop" : 1699341824400,
+        "duration" : 0
+      }
+    } ]
+  },
+  "104d7b23bb3417e68604b5fea875176c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "9e95bf647e0386f5",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/9e95bf647e0386f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856745,
+        "stop" : 1701053856829,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "16dccd86b9df760d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/16dccd86b9df760d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052054938,
+        "stop" : 1701052055035,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "87fcf875ed2f1fa9",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/87fcf875ed2f1fa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793147477,
+        "stop" : 1700793147565,
+        "duration" : 88
+      }
+    }, {
+      "uid" : "942b0c1c6b70235c",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/942b0c1c6b70235c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723084087,
+        "stop" : 1700723084184,
+        "duration" : 97
+      }
+    } ]
+  },
+  "6a431d86d7224eec4efe59f39a55cf9d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e19d52493e9fad2",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/188/allure/#testresult/2e19d52493e9fad2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699863734228,
+        "stop" : 1699863734318,
+        "duration" : 90
+      }
+    } ]
+  },
+  "db5b51ee34e622cab70a7975d080fab0" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "cb9ebe09ba28910d",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/cb9ebe09ba28910d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15003",
+      "time" : {
+        "start" : 1701053885453,
+        "stop" : 1701053885801,
+        "duration" : 348
+      }
+    }, {
+      "uid" : "6012d116fddebe77",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/6012d116fddebe77",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 15003",
+      "time" : {
+        "start" : 1701052059791,
+        "stop" : 1701052060343,
+        "duration" : 552
+      }
+    }, {
+      "uid" : "b01de349e5ad0526",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/b01de349e5ad0526",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 0 != 12007",
+      "time" : {
+        "start" : 1700793180157,
+        "stop" : 1700793184240,
+        "duration" : 4083
+      }
+    }, {
+      "uid" : "c4f166b3c8a67de3",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/c4f166b3c8a67de3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723112834,
+        "stop" : 1700723149169,
+        "duration" : 36335
+      }
+    }, {
+      "uid" : "3be6e9df292792c5",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/3be6e9df292792c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710289302,
+        "stop" : 1700710295704,
+        "duration" : 6402
+      }
+    } ]
+  },
+  "d9df0e73b77ef040dd194a674f35530e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "2d46242ef37c0f70",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/204/allure/#testresult/2d46242ef37c0f70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700012860229,
+        "stop" : 1700012860906,
+        "duration" : 677
+      }
+    }, {
+      "uid" : "700c7c9398407c02",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/203/allure/#testresult/700c7c9398407c02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699945927035,
+        "stop" : 1699945928174,
+        "duration" : 1139
+      }
+    }, {
+      "uid" : "5b3559ff002ab7d0",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/202/allure/#testresult/5b3559ff002ab7d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699931305920,
+        "stop" : 1699931306350,
+        "duration" : 430
+      }
+    }, {
+      "uid" : "f1e725e8c7d6b828",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/201/allure/#testresult/f1e725e8c7d6b828",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699931224583,
+        "stop" : 1699931225255,
+        "duration" : 672
+      }
+    }, {
+      "uid" : "93c4fd55de53ff88",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/200/allure/#testresult/93c4fd55de53ff88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699930616562,
+        "stop" : 1699930616679,
+        "duration" : 117
+      }
+    } ]
+  },
+  "c54cf020486554a0a7ef565c2893f75d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 58,
+      "unknown" : 0,
+      "total" : 62
+    },
+    "items" : [ {
+      "uid" : "5b235d38aa88f480",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure/#testresult/5b235d38aa88f480",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855143,
+        "stop" : 1701053855230,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "2303a8070367a973",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/2303a8070367a973",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701052053367,
+        "stop" : 1701052053456,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "e8d9f318aa8079b9",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/e8d9f318aa8079b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700793146036,
+        "stop" : 1700793146117,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "7bde5fe1fed2a8f9",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/7bde5fe1fed2a8f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700723081758,
+        "stop" : 1700723081869,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "cccfeafd6edc2d95",
+      "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/cccfeafd6edc2d95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700710260670,
+        "stop" : 1700710260762,
+        "duration" : 92
+      }
+    } ]
+  }
+}

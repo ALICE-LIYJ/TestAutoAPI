@@ -1,0 +1,270 @@
+{
+  "uid" : "61d0168d053fb4fa",
+  "name" : "本地作业单个提交",
+  "fullName" : "test_job.TestJobSubmit#test_01LocalJobSubmit_Success",
+  "historyId" : "b67de26df47c1f459346325f0d884f66",
+  "time" : {
+    "start" : 1701053885124,
+    "stop" : 1701053885226,
+    "duration" : 102
+  },
+  "description" : "\n        设置主文件--本地上传bluntbody.sim\n        参数配置\n        本地作业提交\n        ",
+  "descriptionHtml" : "<pre><code>    设置主文件--本地上传bluntbody.sim\n    参数配置\n    本地作业提交\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 0 != 12009",
+  "statusTrace" : "self = <test_job.TestJobSubmit testMethod=test_01LocalJobSubmit_Success>\n\n    @allure.title(\"本地作业单个提交\")\n    def test_01LocalJobSubmit_Success(self):\n        \"\"\"\n        设置主文件--本地上传bluntbody.sim\n        参数配置\n        本地作业提交\n        \"\"\"\n        with allure.step(\"步骤一:选择应用\"):\n            pass\n        with allure.step(\"步骤二:本地上传文件\"):\n            pass\n        with allure.step(\"步骤三:设置主文件\"):\n            pass\n        with allure.step(\"步骤四：配置参数\"):\n            pass\n        with allure.step(\"步骤五：点击提交按钮，确认提交\"):\n            print(\"作业提交成功，界面跳转到作业管理界面\")\n        with allure.step(\"步骤六：查看作业详情\"):\n            pass\n    \n        createtempdir_url = 'https://192.168.111.191/api/v1/job/createTempDir'\n        headers = {\n            \"Cookie\": PSPApi.GetCookie(url, name, password)\n        }\n        body = {\n            \"compute_type\": \"local\"\n        }\n        res = self.req.visit('post', createtempdir_url, headers=headers, json=body)\n        print(res)\n        # 根据请求结果中的code进行断言\n>       self.assertEqual(0, res['code'])\nE       AssertionError: 0 != 12009\n\ntest_job.py:2195: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestJobSubmit",
+    "time" : {
+      "start" : 1701053885123,
+      "stop" : 1701053885123,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        设置主文件--本地上传bluntbody.sim\n        参数配置\n        本地作业提交\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 0 != 12009",
+    "statusTrace" : "self = <test_job.TestJobSubmit testMethod=test_01LocalJobSubmit_Success>\n\n    @allure.title(\"本地作业单个提交\")\n    def test_01LocalJobSubmit_Success(self):\n        \"\"\"\n        设置主文件--本地上传bluntbody.sim\n        参数配置\n        本地作业提交\n        \"\"\"\n        with allure.step(\"步骤一:选择应用\"):\n            pass\n        with allure.step(\"步骤二:本地上传文件\"):\n            pass\n        with allure.step(\"步骤三:设置主文件\"):\n            pass\n        with allure.step(\"步骤四：配置参数\"):\n            pass\n        with allure.step(\"步骤五：点击提交按钮，确认提交\"):\n            print(\"作业提交成功，界面跳转到作业管理界面\")\n        with allure.step(\"步骤六：查看作业详情\"):\n            pass\n    \n        createtempdir_url = 'https://192.168.111.191/api/v1/job/createTempDir'\n        headers = {\n            \"Cookie\": PSPApi.GetCookie(url, name, password)\n        }\n        body = {\n            \"compute_type\": \"local\"\n        }\n        res = self.req.visit('post', createtempdir_url, headers=headers, json=body)\n        print(res)\n        # 根据请求结果中的code进行断言\n>       self.assertEqual(0, res['code'])\nE       AssertionError: 0 != 12009\n\ntest_job.py:2195: AssertionError",
+    "steps" : [ {
+      "name" : "步骤一:选择应用",
+      "time" : {
+        "start" : 1701053885124,
+        "stop" : 1701053885124,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "步骤二:本地上传文件",
+      "time" : {
+        "start" : 1701053885124,
+        "stop" : 1701053885124,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "步骤三:设置主文件",
+      "time" : {
+        "start" : 1701053885124,
+        "stop" : 1701053885124,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "步骤四：配置参数",
+      "time" : {
+        "start" : 1701053885124,
+        "stop" : 1701053885124,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "步骤五：点击提交按钮，确认提交",
+      "time" : {
+        "start" : 1701053885124,
+        "stop" : 1701053885124,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "步骤六：查看作业详情",
+      "time" : {
+        "start" : 1701053885124,
+        "stop" : 1701053885124,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "44512e7c4cc07cb9",
+      "name" : "stdout",
+      "source" : "44512e7c4cc07cb9.txt",
+      "type" : "text/plain",
+      "size" : 165
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestJobSubmit::0",
+    "time" : {
+      "start" : 1701053886178,
+      "stop" : 1701053886178,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PSP"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "作业提交"
+  }, {
+    "name" : "suite",
+    "value" : "test_job"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestJobSubmit"
+  }, {
+    "name" : "host",
+    "value" : "YSKJ0191"
+  }, {
+    "name" : "thread",
+    "value" : "24676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 31,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 49
+      },
+      "items" : [ {
+        "uid" : "76a99087db764b93",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/76a99087db764b93",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 0 != 12009",
+        "time" : {
+          "start" : 1701052059395,
+          "stop" : 1701052059474,
+          "duration" : 79
+        }
+      }, {
+        "uid" : "c10b4ee9316b0407",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/c10b4ee9316b0407",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 4169521 != 0",
+        "time" : {
+          "start" : 1700793167341,
+          "stop" : 1700793174850,
+          "duration" : 7509
+        }
+      }, {
+        "uid" : "a55c2ffde3ea88b4",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/a55c2ffde3ea88b4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 4169521 != 0",
+        "time" : {
+          "start" : 1700723100629,
+          "stop" : 1700723106612,
+          "duration" : 5983
+        }
+      }, {
+        "uid" : "13a3c9c78755d035",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/13a3c9c78755d035",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 4169521 != 0",
+        "time" : {
+          "start" : 1700710275253,
+          "stop" : 1700710283493,
+          "duration" : 8240
+        }
+      }, {
+        "uid" : "2c77a0dda48cff41",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/227/allure/#testresult/2c77a0dda48cff41",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 4169521 != 0",
+        "time" : {
+          "start" : 1700629855006,
+          "stop" : 1700629862469,
+          "duration" : 7463
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "61d0168d053fb4fa.json",
+  "parameterValues" : [ ]
+}

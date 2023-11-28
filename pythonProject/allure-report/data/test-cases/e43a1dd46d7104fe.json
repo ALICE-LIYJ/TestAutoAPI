@@ -1,0 +1,164 @@
+{
+  "uid" : "e43a1dd46d7104fe",
+  "name" : "核时使用情况",
+  "fullName" : "test_job.TestReport#test_05CPU_TIME_SUM",
+  "historyId" : "e86ba1f01353c4ee19fd34a1b938b195",
+  "time" : {
+    "start" : 1701053856653,
+    "stop" : 1701053856739,
+    "duration" : 86
+  },
+  "description" : "\n        核时使用情况\n        ",
+  "descriptionHtml" : "<pre><code>    核时使用情况\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestReport",
+    "time" : {
+      "start" : 1701053855996,
+      "stop" : 1701053855996,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        核时使用情况\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤一：查询30天内的核时使用情况",
+      "time" : {
+        "start" : 1701053856654,
+        "stop" : 1701053856654,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "41027b1413089afc",
+      "name" : "stdout",
+      "source" : "41027b1413089afc.txt",
+      "type" : "text/plain",
+      "size" : 612
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestReport::0",
+    "time" : {
+      "start" : 1701053857208,
+      "stop" : 1701053857208,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PSP"
+  }, {
+    "name" : "story",
+    "value" : "报表统计"
+  }, {
+    "name" : "feature",
+    "value" : "系统管理-报表管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_job"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReport"
+  }, {
+    "name" : "host",
+    "value" : "YSKJ0191"
+  }, {
+    "name" : "thread",
+    "value" : "24676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "45753aad85110d1e",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/45753aad85110d1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701052054828,
+          "stop" : 1701052054930,
+          "duration" : 102
+        }
+      }, {
+        "uid" : "98c3bb217c05de16",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/98c3bb217c05de16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700793147387,
+          "stop" : 1700793147472,
+          "duration" : 85
+        }
+      }, {
+        "uid" : "ca3d65f4fbbd19ba",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/ca3d65f4fbbd19ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700723083980,
+          "stop" : 1700723084081,
+          "duration" : 101
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e43a1dd46d7104fe.json",
+  "parameterValues" : [ ]
+}

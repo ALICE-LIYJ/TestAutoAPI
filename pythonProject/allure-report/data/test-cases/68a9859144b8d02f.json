@@ -1,0 +1,191 @@
+{
+  "uid" : "68a9859144b8d02f",
+  "name" : "移动场景测试：相同文件夹名称，文件夹从第三层级移动到第二层级",
+  "fullName" : "test_job.TestFileManagement#test_11MoveCase_Success",
+  "historyId" : "598ed1467c6fffce23aa7b00243b9115",
+  "time" : {
+    "start" : 1701053883532,
+    "stop" : 1701053883606,
+    "duration" : 74
+  },
+  "description" : "\n        home目录下新建文件夹/LYJ123/LYJ123/LYJ123，\n        将文件夹/LYJ123/LYJ123/移动到第二层级，\n        选择覆盖选中，\n        预期：移动失败，提示：目标路径不能与源文件路径一致\n        ",
+  "descriptionHtml" : "<pre><code>    home目录下新建文件夹/LYJ123/LYJ123/LYJ123，\n    将文件夹/LYJ123/LYJ123/移动到第二层级，\n    选择覆盖选中，\n    预期：移动失败，提示：目标路径不能与源文件路径一致\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 0 != 15017",
+  "statusTrace" : "self = <test_job.TestFileManagement testMethod=test_11MoveCase_Success>\n\n    @allure.title(\"移动场景测试：相同文件夹名称，文件夹从第三层级移动到第二层级\")\n    def test_11MoveCase_Success(self):\n        \"\"\"\n        home目录下新建文件夹/LYJ123/LYJ123/LYJ123，\n        将文件夹/LYJ123/LYJ123/移动到第二层级，\n        选择覆盖选中，\n        预期：移动失败，提示：目标路径不能与源文件路径一致\n        \"\"\"\n        with allure.step(\"步骤一：新建文件夹层级：/LYJ123/LYJ123/LYJ123\"):\n            pass\n    \n        create_url = 'https://192.168.111.191/api/v1/storage/createDir'\n        headers = {\n            \"Cookie\": PSPApi.GetCookie(url, name, password)\n        }\n        body = {\n            \"path\": \"./LYJ123/LYJ123/LYJ123\",\n            \"cross\": False,\n            \"is_cloud\": False,\n            \"user_name\": \"yskj\"\n        }\n        res = self.req.visit('post', create_url, headers=headers, json=body)\n        print(res)\n        # 根据请求结果中的code进行断言\n>       self.assertEqual(0, res['code'])\nE       AssertionError: 0 != 15017\n\ntest_job.py:1598: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestFileManagement",
+    "time" : {
+      "start" : 1701053881841,
+      "stop" : 1701053881841,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        home目录下新建文件夹/LYJ123/LYJ123/LYJ123，\n        将文件夹/LYJ123/LYJ123/移动到第二层级，\n        选择覆盖选中，\n        预期：移动失败，提示：目标路径不能与源文件路径一致\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 0 != 15017",
+    "statusTrace" : "self = <test_job.TestFileManagement testMethod=test_11MoveCase_Success>\n\n    @allure.title(\"移动场景测试：相同文件夹名称，文件夹从第三层级移动到第二层级\")\n    def test_11MoveCase_Success(self):\n        \"\"\"\n        home目录下新建文件夹/LYJ123/LYJ123/LYJ123，\n        将文件夹/LYJ123/LYJ123/移动到第二层级，\n        选择覆盖选中，\n        预期：移动失败，提示：目标路径不能与源文件路径一致\n        \"\"\"\n        with allure.step(\"步骤一：新建文件夹层级：/LYJ123/LYJ123/LYJ123\"):\n            pass\n    \n        create_url = 'https://192.168.111.191/api/v1/storage/createDir'\n        headers = {\n            \"Cookie\": PSPApi.GetCookie(url, name, password)\n        }\n        body = {\n            \"path\": \"./LYJ123/LYJ123/LYJ123\",\n            \"cross\": False,\n            \"is_cloud\": False,\n            \"user_name\": \"yskj\"\n        }\n        res = self.req.visit('post', create_url, headers=headers, json=body)\n        print(res)\n        # 根据请求结果中的code进行断言\n>       self.assertEqual(0, res['code'])\nE       AssertionError: 0 != 15017\n\ntest_job.py:1598: AssertionError",
+    "steps" : [ {
+      "name" : "步骤一：新建文件夹层级：/LYJ123/LYJ123/LYJ123",
+      "time" : {
+        "start" : 1701053883533,
+        "stop" : 1701053883533,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "16a948c2da69c47",
+      "name" : "stdout",
+      "source" : "16a948c2da69c47.txt",
+      "type" : "text/plain",
+      "size" : 101
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestFileManagement::0",
+    "time" : {
+      "start" : 1701053884150,
+      "stop" : 1701053884150,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PSP"
+  }, {
+    "name" : "feature",
+    "value" : "文件管理"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "test_job"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFileManagement"
+  }, {
+    "name" : "host",
+    "value" : "YSKJ0191"
+  }, {
+    "name" : "thread",
+    "value" : "24676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 24,
+        "unknown" : 0,
+        "total" : 28
+      },
+      "items" : [ {
+        "uid" : "cfc15c350fea14cb",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/cfc15c350fea14cb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 0 != 15017",
+        "time" : {
+          "start" : 1701052057721,
+          "stop" : 1701052057804,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "280f7274cf402007",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/280f7274cf402007",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700793160634,
+          "stop" : 1700793161251,
+          "duration" : 617
+        }
+      }, {
+        "uid" : "b4cc3cf867dfc04c",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/b4cc3cf867dfc04c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700723094941,
+          "stop" : 1700723095776,
+          "duration" : 835
+        }
+      }, {
+        "uid" : "79a1922341542ab2",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/79a1922341542ab2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700710269452,
+          "stop" : 1700710271141,
+          "duration" : 1689
+        }
+      }, {
+        "uid" : "2054b3ad61759047",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/227/allure/#testresult/2054b3ad61759047",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700629852942,
+          "stop" : 1700629853239,
+          "duration" : 297
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "68a9859144b8d02f.json",
+  "parameterValues" : [ ]
+}

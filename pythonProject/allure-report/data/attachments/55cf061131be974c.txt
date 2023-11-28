@@ -1,0 +1,2 @@
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {'job_count_by_app': {'name': '作业数', 'original_data': [{'key': 'jn-STAR-CCM+ 14.02', 'value': 281}, {'key': 'jn2-STAR-CCM+ 10.02-R8.liuqi', 'value': 191}, {'key': 'Fluent v22R2', 'value': 36}, {'key': 'jn-STAR-CCM+-CMD 14.02-R8', 'value': 14}, {'key': 'jn-STAR-CCM+ 10.02-R8.liuqi', 'value': 8}, {'key': 'starccm+ 14.02', 'value': 3}, {'key': 'jn-STAR-CCM+ 10.00-R8', 'value': 1}]}, 'job_count_by_user': {'name': '作业数', 'original_data': [{'key': 'yskj', 'value': 528}, {'key': 'tina1', 'value': 6}]}}}

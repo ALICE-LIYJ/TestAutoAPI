@@ -1,0 +1,55 @@
+添加许可证成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {'id': '51LWdBEobKJ'}}
+51LWdBEobKJ
+列出许可证信息成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {'id': '51LWdBEobKJ', 'app_type': 'PSP_AUTO_LICENSE_001', 'os': 1, 'desc': 'PSP自动化脚本测试许可证', 'compute_rule': 'echo 1\nsleep 1\n', 'create_time': '2023-11-27T10:57:38+08:00', 'license_infos': []}}
+编辑许可证信息成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': None}
+列出修改后的许可证信息成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {'id': '51LWdBEobKJ', 'app_type': 'PSP_AUTO_LICENSE_UPDATE', 'os': 1, 'desc': 'PSP自动化脚本测试许可证', 'compute_rule': 'echo 1\nsleep 1\nmkdir /test\ncd /test\n', 'create_time': '2023-11-27T10:57:38+08:00', 'license_infos': []}}
+添加许可证服务器成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {'id': '51LWfp6v5A5'}}
+51LWfp6v5A5
+添加许可证服务器失败
+<Response [200]>
+{'success': False, 'code': 22013, 'message': '许可证名字重复', 'data': None}
+添加模块成功
+<Response [200]>
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {'id': '51LWfuBJpsy'}}
+添加模块失败
+<Response [200]>
+{'success': False, 'code': 22016, 'message': '许可证模块名字重复', 'data': None}
+列出模块数量详情成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {'used_percent': '0.00%', 'module_config_infos': [{'id': '51LWfuBJpsy', 'module_name': 'moduleA', 'total': 2, 'used_num': 0, 'free_num': 2}, {'id': '51LWfvYiKoQ', 'module_name': 'moduleB', 'total': 2, 'used_num': 0, 'free_num': 2}]}}
+51LWfuBJpsy
+51LWfvYiKoQ
+更新修改模块数量详情成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': None}
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': None}
+列出更新后的模块数量详情成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {'used_percent': '0.00%', 'module_config_infos': [{'id': '51LWfuBJpsy', 'module_name': 'moduleA_1', 'total': 3, 'used_num': 0, 'free_num': 3}, {'id': '51LWfvYiKoQ', 'module_name': 'moduleB_1', 'total': 6, 'used_num': 0, 'free_num': 6}]}}
+删除模块成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': None}
+列出删除后的模块数量详情成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {'used_percent': '0.00%', 'module_config_infos': [{'id': '51LWfuBJpsy', 'module_name': 'moduleA_1', 'total': 3, 'used_num': 0, 'free_num': 3}]}}
+查看许可证模块使用情况报表成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {'license_app_module_ut_avg': [{'n': 'moduleA_1', 'd': []}]}}
+删除许可证服务器成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': None}
+删除许可证服务器成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': None}

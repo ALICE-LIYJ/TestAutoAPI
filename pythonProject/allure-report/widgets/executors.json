@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:8081/jenkins/",
+  "buildOrder" : 232,
+  "buildName" : "API AutoTest #232",
+  "buildUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure"
+} ]

@@ -1,0 +1,167 @@
+{
+  "uid" : "1ba1a003479b906a",
+  "name" : "按照“作业名称”过滤",
+  "fullName" : "test_job.TestJobManagement#test_02SearchJobName_Success",
+  "historyId" : "5b492843d3821b051b2d9df26a2baa4f",
+  "time" : {
+    "start" : 1701053884243,
+    "stop" : 1701053884330,
+    "duration" : 87
+  },
+  "description" : "\n        按照作业名称查询数据\n        输入作业名称：test1\n        ",
+  "descriptionHtml" : "<pre><code>    按照作业名称查询数据\n    输入作业名称：test1\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestJobManagement",
+    "time" : {
+      "start" : 1701053884157,
+      "stop" : 1701053884157,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        按照作业名称查询数据\n        输入作业名称：test1\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "27e0b2925a534b81",
+      "name" : "stdout",
+      "source" : "27e0b2925a534b81.txt",
+      "type" : "text/plain",
+      "size" : 6992
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestJobManagement::0",
+    "time" : {
+      "start" : 1701053885118,
+      "stop" : 1701053885118,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "查询功能"
+  }, {
+    "name" : "feature",
+    "value" : "作业管理"
+  }, {
+    "name" : "epic",
+    "value" : "PSP"
+  }, {
+    "name" : "suite",
+    "value" : "test_job"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestJobManagement"
+  }, {
+    "name" : "host",
+    "value" : "YSKJ0191"
+  }, {
+    "name" : "thread",
+    "value" : "24676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 55,
+        "unknown" : 0,
+        "total" : 59
+      },
+      "items" : [ {
+        "uid" : "a28b4dbcf094dda2",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/a28b4dbcf094dda2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701052058468,
+          "stop" : 1701052058562,
+          "duration" : 94
+        }
+      }, {
+        "uid" : "c9c3117659b8378d",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/c9c3117659b8378d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700793166194,
+          "stop" : 1700793166316,
+          "duration" : 122
+        }
+      }, {
+        "uid" : "43c4e5c02c1ef561",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/43c4e5c02c1ef561",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700723097408,
+          "stop" : 1700723097641,
+          "duration" : 233
+        }
+      }, {
+        "uid" : "3b3c0af334a21e1d",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/3b3c0af334a21e1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700710274035,
+          "stop" : 1700710274144,
+          "duration" : 109
+        }
+      }, {
+        "uid" : "5e36f2114485ab56",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/227/allure/#testresult/5e36f2114485ab56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700629853871,
+          "stop" : 1700629853990,
+          "duration" : 119
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1ba1a003479b906a.json",
+  "parameterValues" : [ ]
+}

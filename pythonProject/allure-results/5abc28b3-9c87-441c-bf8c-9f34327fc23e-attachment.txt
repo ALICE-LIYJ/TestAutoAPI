@@ -1,0 +1,4 @@
+输入正确的用户名、密码
+登录成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {'user': {'id': '3McPKsZzSrp', 'name': 'yskj', 'email': '', 'mobile': '', 'enabled': True, 'is_internal': True, 'created_at': 1680510131000, 'real_name': '', 'approve_status': 0, 'roles': None}}}

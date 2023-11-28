@@ -1,0 +1,164 @@
+{
+  "uid" : "351d8f0c265490b6",
+  "name" : "磁盘吞吐率",
+  "fullName" : "test_job.TestReport#test_03TOTAL_IO_UT_AVG",
+  "historyId" : "df4f974e2900e3d83f454a4dc60ae8d8",
+  "time" : {
+    "start" : 1701053856371,
+    "stop" : 1701053856556,
+    "duration" : 185
+  },
+  "description" : "\n        磁盘吞吐率\n        ",
+  "descriptionHtml" : "<pre><code>    磁盘吞吐率\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestReport",
+    "time" : {
+      "start" : 1701053855996,
+      "stop" : 1701053855996,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        磁盘吞吐率\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤一：查询7天内的磁盘吞吐率",
+      "time" : {
+        "start" : 1701053856371,
+        "stop" : 1701053856371,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3934e764537c7d2",
+      "name" : "stdout",
+      "source" : "3934e764537c7d2.txt",
+      "type" : "text/plain",
+      "size" : 81178
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestReport::0",
+    "time" : {
+      "start" : 1701053857208,
+      "stop" : 1701053857208,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PSP"
+  }, {
+    "name" : "story",
+    "value" : "报表统计"
+  }, {
+    "name" : "feature",
+    "value" : "系统管理-报表管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_job"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReport"
+  }, {
+    "name" : "host",
+    "value" : "YSKJ0191"
+  }, {
+    "name" : "thread",
+    "value" : "24676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "4fd789118d12cb37",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/4fd789118d12cb37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701052054516,
+          "stop" : 1701052054726,
+          "duration" : 210
+        }
+      }, {
+        "uid" : "5640c4a079ccb7ca",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/5640c4a079ccb7ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700793147096,
+          "stop" : 1700793147285,
+          "duration" : 189
+        }
+      }, {
+        "uid" : "ac1aa4c8770752c1",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/ac1aa4c8770752c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700723083463,
+          "stop" : 1700723083838,
+          "duration" : 375
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "351d8f0c265490b6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,164 @@
+{
+  "uid" : "445587b0587db705",
+  "name" : "用户数与作业数情况",
+  "fullName" : "test_job.TestReport#test_07JOB_DELIVER_COUNT",
+  "historyId" : "e5792e9202e3845de50f88b3980c5911",
+  "time" : {
+    "start" : 1701053856835,
+    "stop" : 1701053856932,
+    "duration" : 97
+  },
+  "description" : "\n        用户数与作业数情况\n        ",
+  "descriptionHtml" : "<pre><code>    用户数与作业数情况\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestReport",
+    "time" : {
+      "start" : 1701053855996,
+      "stop" : 1701053855996,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        用户数与作业数情况\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤一：查询30天内的用户数与作业数情况",
+      "time" : {
+        "start" : 1701053856835,
+        "stop" : 1701053856835,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f7c0b76f756696aa",
+      "name" : "stdout",
+      "source" : "f7c0b76f756696aa.txt",
+      "type" : "text/plain",
+      "size" : 1233
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestReport::0",
+    "time" : {
+      "start" : 1701053857208,
+      "stop" : 1701053857208,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PSP"
+  }, {
+    "name" : "story",
+    "value" : "报表统计"
+  }, {
+    "name" : "feature",
+    "value" : "系统管理-报表管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_job"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestReport"
+  }, {
+    "name" : "host",
+    "value" : "YSKJ0191"
+  }, {
+    "name" : "thread",
+    "value" : "24676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "8fcf3178344e3b33",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/8fcf3178344e3b33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701052055044,
+          "stop" : 1701052055137,
+          "duration" : 93
+        }
+      }, {
+        "uid" : "90c8c392bb3c5c7f",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/90c8c392bb3c5c7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700793147571,
+          "stop" : 1700793147663,
+          "duration" : 92
+        }
+      }, {
+        "uid" : "29b8a38fe7f9ad1",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/29b8a38fe7f9ad1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700723084190,
+          "stop" : 1700723084312,
+          "duration" : 122
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "445587b0587db705.json",
+  "parameterValues" : [ ]
+}

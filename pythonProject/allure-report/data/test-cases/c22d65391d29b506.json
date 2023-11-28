@@ -1,0 +1,176 @@
+{
+  "uid" : "c22d65391d29b506",
+  "name" : "删除文件夹",
+  "fullName" : "test_job.TestFileManagement#test_10DeleteDir_Success",
+  "historyId" : "d3686d4c5e70dc57d36a5a35d03b2353",
+  "time" : {
+    "start" : 1701053883388,
+    "stop" : 1701053883465,
+    "duration" : 77
+  },
+  "description" : "\n        删除文件夹：/home/test111\n        删除文件夹：/home/test-rm\n        ",
+  "descriptionHtml" : "<pre><code>    删除文件夹：/home/test111\n    删除文件夹：/home/test-rm\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: string indices must be integers",
+  "statusTrace" : "self = <test_job.TestFileManagement testMethod=test_10DeleteDir_Success>\n\n    @allure.title(\"删除文件夹\")\n    def test_10DeleteDir_Success(self):\n        \"\"\"\n        删除文件夹：/home/test111\n        删除文件夹：/home/test-rm\n        \"\"\"\n        remove_url = 'https://192.168.111.191/api/v1/storage/remove'\n        headers = {\n            \"Cookie\": PSPApi.GetCookie(url,name,password)\n        }\n        body = {\n            \"paths\": [\"/test111\"],\n            \"cross\": False,\n            \"is_cloud\": False,\n            \"user_name\": \"yskj\"\n        }\n        body1 = {\n            \"paths\": [\"/test-rm\"],\n            \"cross\": False,\n            \"is_cloud\": False,\n            \"user_name\": \"yskj\"\n        }\n        res = self.req.visit('post', remove_url, headers=headers, json=body)\n        print(res)\n        # 根据请求结果中的code进行断言\n>       self.assertEqual(0, res['code'])\nE       TypeError: string indices must be integers\n\ntest_job.py:1567: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestFileManagement",
+    "time" : {
+      "start" : 1701053881841,
+      "stop" : 1701053881841,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        删除文件夹：/home/test111\n        删除文件夹：/home/test-rm\n        ",
+    "status" : "broken",
+    "statusMessage" : "TypeError: string indices must be integers",
+    "statusTrace" : "self = <test_job.TestFileManagement testMethod=test_10DeleteDir_Success>\n\n    @allure.title(\"删除文件夹\")\n    def test_10DeleteDir_Success(self):\n        \"\"\"\n        删除文件夹：/home/test111\n        删除文件夹：/home/test-rm\n        \"\"\"\n        remove_url = 'https://192.168.111.191/api/v1/storage/remove'\n        headers = {\n            \"Cookie\": PSPApi.GetCookie(url,name,password)\n        }\n        body = {\n            \"paths\": [\"/test111\"],\n            \"cross\": False,\n            \"is_cloud\": False,\n            \"user_name\": \"yskj\"\n        }\n        body1 = {\n            \"paths\": [\"/test-rm\"],\n            \"cross\": False,\n            \"is_cloud\": False,\n            \"user_name\": \"yskj\"\n        }\n        res = self.req.visit('post', remove_url, headers=headers, json=body)\n        print(res)\n        # 根据请求结果中的code进行断言\n>       self.assertEqual(0, res['code'])\nE       TypeError: string indices must be integers\n\ntest_job.py:1567: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f662b0e994fff76",
+      "name" : "stdout",
+      "source" : "8f662b0e994fff76.txt",
+      "type" : "text/plain",
+      "size" : 26
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestFileManagement::0",
+    "time" : {
+      "start" : 1701053884150,
+      "stop" : 1701053884150,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PSP"
+  }, {
+    "name" : "feature",
+    "value" : "文件管理"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "test_job"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFileManagement"
+  }, {
+    "name" : "host",
+    "value" : "YSKJ0191"
+  }, {
+    "name" : "thread",
+    "value" : "24676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 24,
+        "unknown" : 0,
+        "total" : 28
+      },
+      "items" : [ {
+        "uid" : "4f0c6c834f55444",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/4f0c6c834f55444",
+        "status" : "broken",
+        "statusDetails" : "TypeError: string indices must be integers",
+        "time" : {
+          "start" : 1701052057553,
+          "stop" : 1701052057639,
+          "duration" : 86
+        }
+      }, {
+        "uid" : "9e3aedd29f5ab115",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/9e3aedd29f5ab115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700793160027,
+          "stop" : 1700793160626,
+          "duration" : 599
+        }
+      }, {
+        "uid" : "bc0f311d3e852cde",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/bc0f311d3e852cde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700723094763,
+          "stop" : 1700723094928,
+          "duration" : 165
+        }
+      }, {
+        "uid" : "7d2d2ff584cc78",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/7d2d2ff584cc78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700710268891,
+          "stop" : 1700710269443,
+          "duration" : 552
+        }
+      }, {
+        "uid" : "e5c418cf2c8f9fdd",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/227/allure/#testresult/e5c418cf2c8f9fdd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700629852747,
+          "stop" : 1700629852936,
+          "duration" : 189
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c22d65391d29b506.json",
+  "parameterValues" : [ ]
+}

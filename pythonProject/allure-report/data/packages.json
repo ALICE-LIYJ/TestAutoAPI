@@ -1,0 +1,806 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_login",
+    "children" : [ {
+      "name" : "正确的用户名、密码登录",
+      "uid" : "651be11aea2f09b7",
+      "parentUid" : "03f1661ca992eb99488d3d9f2a012d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053831310,
+        "stop" : 1701053831397,
+        "duration" : 87
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "错误的用户名、正确的密码登录",
+      "uid" : "1a7cf48cc6c9fb60",
+      "parentUid" : "03f1661ca992eb99488d3d9f2a012d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053831407,
+        "stop" : 1701053831448,
+        "duration" : 41
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "正确的用户名、错误的密码登录",
+      "uid" : "f2372097f684b2a4",
+      "parentUid" : "03f1661ca992eb99488d3d9f2a012d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053831456,
+        "stop" : 1701053831490,
+        "duration" : 34
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "03f1661ca992eb99488d3d9f2a012d80"
+  }, {
+    "name" : "test_job",
+    "children" : [ {
+      "name" : "添加本地应用模版",
+      "uid" : "8d206cde666b3c9",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053831499,
+        "stop" : 1701053851063,
+        "duration" : 19564
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "发布本地应用",
+      "uid" : "9870574a5b1c96b5",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053851070,
+        "stop" : 1701053851165,
+        "duration" : 95
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "取消发布本地应用",
+      "uid" : "c66a1adb2513c19c",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053851172,
+        "stop" : 1701053851288,
+        "duration" : 116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "删除本地应用",
+      "uid" : "fa4fa25e8b4c5b07",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053851302,
+        "stop" : 1701053853765,
+        "duration" : 2463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "添加本地应用时：类型为空",
+      "uid" : "86a13c54f05763e",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053853787,
+        "stop" : 1701053853876,
+        "duration" : 89
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "添加本地应用时：版本为空",
+      "uid" : "b80d06fe408d6a1a",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053853882,
+        "stop" : 1701053853966,
+        "duration" : 84
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "添加本地应用时：镜像名和可执行文件路径为空",
+      "uid" : "228c9504d7b46998",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053853973,
+        "stop" : 1701053854086,
+        "duration" : 113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "发布云应用",
+      "uid" : "b0d2eb9d30be4bdd",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053854106,
+        "stop" : 1701053854407,
+        "duration" : 301
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "取消发布云应用",
+      "uid" : "6dfd8693b043a14d",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053854419,
+        "stop" : 1701053854865,
+        "duration" : 446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "应用-统计总览-按照计算类型：“远算云”过滤",
+      "uid" : "b36669b995c95216",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053854877,
+        "stop" : 1701053854956,
+        "duration" : 79
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "应用-统计总览-按照计算类型：“本地”过滤",
+      "uid" : "3e4e16fcffea5d84",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053854962,
+        "stop" : 1701053855045,
+        "duration" : 83
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "应用-统计明细-按照计算类型：“远算云”过滤",
+      "uid" : "821654903861a9de",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855051,
+        "stop" : 1701053855136,
+        "duration" : 85
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "应用-统计明细-按照计算类型：“本地”过滤",
+      "uid" : "5b235d38aa88f480",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855143,
+        "stop" : 1701053855230,
+        "duration" : 87
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "用户-统计总览-按照计算类型：“远算云”过滤",
+      "uid" : "50ef0939d8228bec",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855243,
+        "stop" : 1701053855330,
+        "duration" : 87
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "用户-统计总览-按照计算类型：“本地”过滤",
+      "uid" : "10e9290527f5af9f",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855339,
+        "stop" : 1701053855425,
+        "duration" : 86
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "用户-统计明细-按照计算类型：“远算云”过滤",
+      "uid" : "6979bd31adf4ec34",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855432,
+        "stop" : 1701053855523,
+        "duration" : 91
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "用户-统计明细-按照计算类型、用户名称过滤",
+      "uid" : "4447ae6571150fdb",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855530,
+        "stop" : 1701053855612,
+        "duration" : 82
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "按照“用户名称”过滤",
+      "uid" : "412b0e2e1d84eb72",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855628,
+        "stop" : 1701053855748,
+        "duration" : 120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "按照“作业编号”过滤",
+      "uid" : "940e35d69ef0e61e",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855757,
+        "stop" : 1701053855890,
+        "duration" : 133
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "按照“应用名称”过滤",
+      "uid" : "2f51553e681effbe",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855900,
+        "stop" : 1701053855989,
+        "duration" : 89
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CPU平均利用率",
+      "uid" : "c366fc8a0afaad2f",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053855996,
+        "stop" : 1701053856096,
+        "duration" : 100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "内存平均利用率",
+      "uid" : "ae86749f71beeb74",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856101,
+        "stop" : 1701053856360,
+        "duration" : 259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "磁盘吞吐率",
+      "uid" : "351d8f0c265490b6",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856371,
+        "stop" : 1701053856556,
+        "duration" : 185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "磁盘使用情况",
+      "uid" : "253ece141e0cfa83",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856561,
+        "stop" : 1701053856648,
+        "duration" : 87
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "核时使用情况",
+      "uid" : "e43a1dd46d7104fe",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856653,
+        "stop" : 1701053856739,
+        "duration" : 86
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "作业投递数情况",
+      "uid" : "9e95bf647e0386f5",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856745,
+        "stop" : 1701053856829,
+        "duration" : 84
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "用户数与作业数情况",
+      "uid" : "445587b0587db705",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856835,
+        "stop" : 1701053856932,
+        "duration" : 97
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "作业等待情况",
+      "uid" : "a18cae51ce04fb86",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053856940,
+        "stop" : 1701053857038,
+        "duration" : 98
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "许可证软件使用情况",
+      "uid" : "8cdcf2bf79895477",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053857044,
+        "stop" : 1701053857207,
+        "duration" : 163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "许可证管理",
+      "uid" : "5a6fabb98d0581c7",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053857215,
+        "stop" : 1701053881820,
+        "duration" : 24605
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "新建文件夹",
+      "uid" : "d3b1ac4d11b3268d",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053881842,
+        "stop" : 1701053881929,
+        "duration" : 87
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "上传文件",
+      "uid" : "8af9a49440ee30a6",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053882343,
+        "stop" : 1701053882454,
+        "duration" : 111
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "下载文件",
+      "uid" : "c8db1f8e87a68e82",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053882527,
+        "stop" : 1701053882639,
+        "duration" : 112
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "文件覆盖",
+      "uid" : "2d55d48b3aef1784",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1701053882650,
+        "stop" : 1701053882742,
+        "duration" : 92
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "删除文件",
+      "uid" : "8679185cc28ed0e4",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1701053882817,
+        "stop" : 1701053882887,
+        "duration" : 70
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "文件夹重命名",
+      "uid" : "f1a6d461d22c8f90",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053882953,
+        "stop" : 1701053883026,
+        "duration" : 73
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "移动场景测试：将文件夹从第二层级移动到第一层级",
+      "uid" : "d88e2941f94793c7",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053883104,
+        "stop" : 1701053883180,
+        "duration" : 76
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "移动场景测试：文件夹移动到源路径",
+      "uid" : "79d49bd51f9861f5",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053883249,
+        "stop" : 1701053883323,
+        "duration" : 74
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "删除文件夹",
+      "uid" : "c22d65391d29b506",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1701053883388,
+        "stop" : 1701053883465,
+        "duration" : 77
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "移动场景测试：相同文件夹名称，文件夹从第三层级移动到第二层级",
+      "uid" : "68a9859144b8d02f",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053883532,
+        "stop" : 1701053883606,
+        "duration" : 74
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "移动场景测试：相同文件夹名称，文件夹从第三层级移动到第一层级",
+      "uid" : "a84009bc1191c153",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053883695,
+        "stop" : 1701053883771,
+        "duration" : 76
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "分享文件",
+      "uid" : "28b2a75fc3fb7cb",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053883855,
+        "stop" : 1701053883931,
+        "duration" : 76
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "发送文件",
+      "uid" : "619dfb1fd460c98f",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053883997,
+        "stop" : 1701053884072,
+        "duration" : 75
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "按照“作业编号”过滤",
+      "uid" : "4a68e47a370fb9a2",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884158,
+        "stop" : 1701053884238,
+        "duration" : 80
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "按照“作业名称”过滤",
+      "uid" : "1ba1a003479b906a",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884243,
+        "stop" : 1701053884330,
+        "duration" : 87
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "按照“用户名称”过滤",
+      "uid" : "df06be39613774db",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884335,
+        "stop" : 1701053884419,
+        "duration" : 84
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "按照“应用名称”过滤",
+      "uid" : "f90739e25d22e171",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884425,
+        "stop" : 1701053884511,
+        "duration" : 86
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "按照“队列名称”过滤",
+      "uid" : "fd6e58307ef813af",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884517,
+        "stop" : 1701053884596,
+        "duration" : 79
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "按照“计算状态”过滤",
+      "uid" : "d73e048ac0e5f586",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884602,
+        "stop" : 1701053884685,
+        "duration" : 83
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "按照“作业类型”过滤",
+      "uid" : "fff6bc56bda299b9",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884695,
+        "stop" : 1701053884784,
+        "duration" : 89
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "按照“计算状态、作业名称、队列名称”组合过滤",
+      "uid" : "f8412bb47ac37b09",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884788,
+        "stop" : 1701053884866,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "按照“作业名称、应用名称、作业类型”组合过滤",
+      "uid" : "acabb1ffe331267a",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884871,
+        "stop" : 1701053884949,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "点击作业编号查看作业详情",
+      "uid" : "22df3ad886bd5520",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053884954,
+        "stop" : 1701053885034,
+        "duration" : 80
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "点击作业名称查看作业详情",
+      "uid" : "d440709c11c54b8a",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1701053885040,
+        "stop" : 1701053885117,
+        "duration" : 77
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "本地作业单个提交",
+      "uid" : "61d0168d053fb4fa",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053885124,
+        "stop" : 1701053885226,
+        "duration" : 102
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "本地作业批量提交",
+      "uid" : "5f9492988590e342",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053885295,
+        "stop" : 1701053885389,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "云端作业单个提交",
+      "uid" : "cb9ebe09ba28910d",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053885453,
+        "stop" : 1701053885801,
+        "duration" : 348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "云端作业批量提交",
+      "uid" : "ba14a8fe964f0f26",
+      "parentUid" : "d83293923cdd87cadde28b2c5e7d3d6e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1701053885877,
+        "stop" : 1701053886102,
+        "duration" : 225
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d83293923cdd87cadde28b2c5e7d3d6e"
+  } ]
+}

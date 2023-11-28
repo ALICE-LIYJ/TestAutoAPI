@@ -1,0 +1,185 @@
+{
+  "uid" : "6dfd8693b043a14d",
+  "name" : "取消发布云应用",
+  "fullName" : "test_job.TestCloudApp#test_02UnPublishCloudApp_Success",
+  "historyId" : "eb5a65b95f8fe189f741b81033eef325",
+  "time" : {
+    "start" : 1701053854419,
+    "stop" : 1701053854865,
+    "duration" : 446
+  },
+  "description" : "\n        取消发布云应用\n        ",
+  "descriptionHtml" : "<pre><code>    取消发布云应用\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestCloudApp",
+    "time" : {
+      "start" : 1701053854104,
+      "stop" : 1701053854104,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        取消发布云应用\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "取消发布云应用",
+      "time" : {
+        "start" : 1701053854419,
+        "stop" : 1701053854420,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b7ea04815caf405e",
+      "name" : "stdout",
+      "source" : "b7ea04815caf405e.txt",
+      "type" : "text/plain",
+      "size" : 101
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestCloudApp::0",
+    "time" : {
+      "start" : 1701053854866,
+      "stop" : 1701053854866,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "系统管理-计算应用"
+  }, {
+    "name" : "epic",
+    "value" : "PSP"
+  }, {
+    "name" : "story",
+    "value" : "云应用模版"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "test_job"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCloudApp"
+  }, {
+    "name" : "host",
+    "value" : "YSKJ0191"
+  }, {
+    "name" : "thread",
+    "value" : "24676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 60,
+        "unknown" : 0,
+        "total" : 64
+      },
+      "items" : [ {
+        "uid" : "e5f65a0345b04447",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/e5f65a0345b04447",
+        "status" : "passed",
+        "time" : {
+          "start" : 1701052052703,
+          "stop" : 1701052053026,
+          "duration" : 323
+        }
+      }, {
+        "uid" : "443110b631c3a596",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/443110b631c3a596",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700793145667,
+          "stop" : 1700793145766,
+          "duration" : 99
+        }
+      }, {
+        "uid" : "28fe46ec8c2ebd6b",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/28fe46ec8c2ebd6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700723080501,
+          "stop" : 1700723081388,
+          "duration" : 887
+        }
+      }, {
+        "uid" : "ecf743079aceab48",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/ecf743079aceab48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700710259266,
+          "stop" : 1700710260354,
+          "duration" : 1088
+        }
+      }, {
+        "uid" : "ff9c9a124f4e0cea",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/227/allure/#testresult/ff9c9a124f4e0cea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700629846231,
+          "stop" : 1700629846336,
+          "duration" : 105
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6dfd8693b043a14d.json",
+  "parameterValues" : [ ]
+}

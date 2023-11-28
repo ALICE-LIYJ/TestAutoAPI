@@ -1,0 +1,176 @@
+{
+  "uid" : "2d55d48b3aef1784",
+  "name" : "文件覆盖",
+  "fullName" : "test_job.TestFileManagement#test_04OverWriteFile_Success",
+  "historyId" : "1ca5dbe3e2536bcef3ff4d47173da735",
+  "time" : {
+    "start" : 1701053882650,
+    "stop" : 1701053882742,
+    "duration" : 92
+  },
+  "description" : "\n        home目录下新建文件夹/test-mkdir，在文件夹/test-mkdir下上传文件bluntbody.sim(3.98MB)，\n        后续继续在此文件夹下上传同名的文件bluntbody.sim(0B)，\n        选择覆盖选中，\n        预期：上传成功，文件展示为bluntbody.sim(0B)\n        ",
+  "descriptionHtml" : "<pre><code>    home目录下新建文件夹/test-mkdir，在文件夹/test-mkdir下上传文件bluntbody.sim(3.98MB)，\n    后续继续在此文件夹下上传同名的文件bluntbody.sim(0B)，\n    选择覆盖选中，\n    预期：上传成功，文件展示为bluntbody.sim(0B)\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: string indices must be integers",
+  "statusTrace" : "self = <test_job.TestFileManagement testMethod=test_04OverWriteFile_Success>\n\n    @allure.title(\"文件覆盖\")\n    def test_04OverWriteFile_Success(self):\n        \"\"\"\n        home目录下新建文件夹/test-mkdir，在文件夹/test-mkdir下上传文件bluntbody.sim(3.98MB)，\n        后续继续在此文件夹下上传同名的文件bluntbody.sim(0B)，\n        选择覆盖选中，\n        预期：上传成功，文件展示为bluntbody.sim(0B)\n        \"\"\"\n        remove_url = 'https://192.168.111.191/api/v1/storage/remove'\n        headers = {\n            \"Cookie\": PSPApi.GetCookie(url, name, password)\n        }\n        body = {\n            \"paths\": [\"/test-mkdir/bluntbody.sim\"],\n            \"cross\": False,\n            \"is_cloud\": False,\n            \"user_name\": \"yskj\"\n        }\n        res = self.req.visit('post', remove_url, headers=headers, json=body)\n        print(res)\n        # 根据请求结果中的code进行断言\n>       self.assertEqual(0, res['code'])\nE       TypeError: string indices must be integers\n\ntest_job.py:1306: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestFileManagement",
+    "time" : {
+      "start" : 1701053881841,
+      "stop" : 1701053881841,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        home目录下新建文件夹/test-mkdir，在文件夹/test-mkdir下上传文件bluntbody.sim(3.98MB)，\n        后续继续在此文件夹下上传同名的文件bluntbody.sim(0B)，\n        选择覆盖选中，\n        预期：上传成功，文件展示为bluntbody.sim(0B)\n        ",
+    "status" : "broken",
+    "statusMessage" : "TypeError: string indices must be integers",
+    "statusTrace" : "self = <test_job.TestFileManagement testMethod=test_04OverWriteFile_Success>\n\n    @allure.title(\"文件覆盖\")\n    def test_04OverWriteFile_Success(self):\n        \"\"\"\n        home目录下新建文件夹/test-mkdir，在文件夹/test-mkdir下上传文件bluntbody.sim(3.98MB)，\n        后续继续在此文件夹下上传同名的文件bluntbody.sim(0B)，\n        选择覆盖选中，\n        预期：上传成功，文件展示为bluntbody.sim(0B)\n        \"\"\"\n        remove_url = 'https://192.168.111.191/api/v1/storage/remove'\n        headers = {\n            \"Cookie\": PSPApi.GetCookie(url, name, password)\n        }\n        body = {\n            \"paths\": [\"/test-mkdir/bluntbody.sim\"],\n            \"cross\": False,\n            \"is_cloud\": False,\n            \"user_name\": \"yskj\"\n        }\n        res = self.req.visit('post', remove_url, headers=headers, json=body)\n        print(res)\n        # 根据请求结果中的code进行断言\n>       self.assertEqual(0, res['code'])\nE       TypeError: string indices must be integers\n\ntest_job.py:1306: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bac2e9d9d615c828",
+      "name" : "stdout",
+      "source" : "bac2e9d9d615c828.txt",
+      "type" : "text/plain",
+      "size" : 26
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestFileManagement::0",
+    "time" : {
+      "start" : 1701053884150,
+      "stop" : 1701053884150,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PSP"
+  }, {
+    "name" : "feature",
+    "value" : "文件管理"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "test_job"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFileManagement"
+  }, {
+    "name" : "host",
+    "value" : "YSKJ0191"
+  }, {
+    "name" : "thread",
+    "value" : "24676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 23,
+        "unknown" : 0,
+        "total" : 29
+      },
+      "items" : [ {
+        "uid" : "39dcfff4ce77cc6d",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/39dcfff4ce77cc6d",
+        "status" : "broken",
+        "statusDetails" : "TypeError: string indices must be integers",
+        "time" : {
+          "start" : 1701052056704,
+          "stop" : 1701052056784,
+          "duration" : 80
+        }
+      }, {
+        "uid" : "8253bd037bd47a43",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/8253bd037bd47a43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700793157340,
+          "stop" : 1700793158269,
+          "duration" : 929
+        }
+      }, {
+        "uid" : "5b38ed548b012131",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/5b38ed548b012131",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700723092832,
+          "stop" : 1700723093574,
+          "duration" : 742
+        }
+      }, {
+        "uid" : "982aeaf9f919663",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/982aeaf9f919663",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700710263945,
+          "stop" : 1700710266023,
+          "duration" : 2078
+        }
+      }, {
+        "uid" : "33b13038b77adc30",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/227/allure/#testresult/33b13038b77adc30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700629850483,
+          "stop" : 1700629851634,
+          "duration" : 1151
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2d55d48b3aef1784.json",
+  "parameterValues" : [ ]
+}

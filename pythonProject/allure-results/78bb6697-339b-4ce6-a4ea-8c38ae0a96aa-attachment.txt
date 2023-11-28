@@ -1,0 +1,3 @@
+取消发布云应用成功
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {}}

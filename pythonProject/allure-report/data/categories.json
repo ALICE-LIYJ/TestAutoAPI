@@ -1,0 +1,249 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 0 != 15017",
+      "children" : [ {
+        "name" : "新建文件夹",
+        "uid" : "d3b1ac4d11b3268d",
+        "parentUid" : "a1d653dfe0826409c30461eb4e06b0e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053881842,
+          "stop" : 1701053881929,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "移动场景测试：将文件夹从第二层级移动到第一层级",
+        "uid" : "d88e2941f94793c7",
+        "parentUid" : "a1d653dfe0826409c30461eb4e06b0e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053883104,
+          "stop" : 1701053883180,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "移动场景测试：相同文件夹名称，文件夹从第三层级移动到第二层级",
+        "uid" : "68a9859144b8d02f",
+        "parentUid" : "a1d653dfe0826409c30461eb4e06b0e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053883532,
+          "stop" : 1701053883606,
+          "duration" : 74
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "移动场景测试：相同文件夹名称，文件夹从第三层级移动到第一层级",
+        "uid" : "a84009bc1191c153",
+        "parentUid" : "a1d653dfe0826409c30461eb4e06b0e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053883695,
+          "stop" : 1701053883771,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1d653dfe0826409c30461eb4e06b0e6"
+    }, {
+      "name" : "AssertionError: 0 != 15025",
+      "children" : [ {
+        "name" : "上传文件",
+        "uid" : "8af9a49440ee30a6",
+        "parentUid" : "a9fb9c24b6dbaeac2941ff61edfdb585",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053882343,
+          "stop" : 1701053882454,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9fb9c24b6dbaeac2941ff61edfdb585"
+    }, {
+      "name" : "AssertionError: 0 != 15021",
+      "children" : [ {
+        "name" : "文件夹重命名",
+        "uid" : "f1a6d461d22c8f90",
+        "parentUid" : "d0c6cd3929199a9e15769aa577e59928",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053882953,
+          "stop" : 1701053883026,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d0c6cd3929199a9e15769aa577e59928"
+    }, {
+      "name" : "AssertionError: 15019 != 15003",
+      "children" : [ {
+        "name" : "移动场景测试：文件夹移动到源路径",
+        "uid" : "79d49bd51f9861f5",
+        "parentUid" : "2ead7d194840396cb8b6b02d290fac89",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053883249,
+          "stop" : 1701053883323,
+          "duration" : 74
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ead7d194840396cb8b6b02d290fac89"
+    }, {
+      "name" : "AssertionError: 0 != 15003",
+      "children" : [ {
+        "name" : "分享文件",
+        "uid" : "28b2a75fc3fb7cb",
+        "parentUid" : "1bb98c97328c7564cde2677641897951",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053883855,
+          "stop" : 1701053883931,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发送文件",
+        "uid" : "619dfb1fd460c98f",
+        "parentUid" : "1bb98c97328c7564cde2677641897951",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053883997,
+          "stop" : 1701053884072,
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "云端作业单个提交",
+        "uid" : "cb9ebe09ba28910d",
+        "parentUid" : "1bb98c97328c7564cde2677641897951",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053885453,
+          "stop" : 1701053885801,
+          "duration" : 348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "云端作业批量提交",
+        "uid" : "ba14a8fe964f0f26",
+        "parentUid" : "1bb98c97328c7564cde2677641897951",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053885877,
+          "stop" : 1701053886102,
+          "duration" : 225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1bb98c97328c7564cde2677641897951"
+    }, {
+      "name" : "AssertionError: 0 != 12009",
+      "children" : [ {
+        "name" : "本地作业单个提交",
+        "uid" : "61d0168d053fb4fa",
+        "parentUid" : "5e00058a4e14f3c84afb98fcd9f0c67f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053885124,
+          "stop" : 1701053885226,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "本地作业批量提交",
+        "uid" : "5f9492988590e342",
+        "parentUid" : "5e00058a4e14f3c84afb98fcd9f0c67f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1701053885295,
+          "stop" : 1701053885389,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e00058a4e14f3c84afb98fcd9f0c67f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: string indices must be integers",
+      "children" : [ {
+        "name" : "文件覆盖",
+        "uid" : "2d55d48b3aef1784",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701053882650,
+          "stop" : 1701053882742,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除文件",
+        "uid" : "8679185cc28ed0e4",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701053882817,
+          "stop" : 1701053882887,
+          "duration" : 70
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除文件夹",
+        "uid" : "c22d65391d29b506",
+        "parentUid" : "72c0936964a9b2fe1cfe23cf31d1b5b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1701053883388,
+          "stop" : 1701053883465,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72c0936964a9b2fe1cfe23cf31d1b5b6"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

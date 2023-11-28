@@ -1,0 +1,241 @@
+[ {
+  "buildOrder" : 232,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/232/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 13,
+    "broken" : 3,
+    "skipped" : 0,
+    "passed" : 45,
+    "unknown" : 0,
+    "total" : 61
+  }
+}, {
+  "buildOrder" : 231,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 15,
+    "broken" : 3,
+    "skipped" : 0,
+    "passed" : 43,
+    "unknown" : 0,
+    "total" : 61
+  }
+}, {
+  "buildOrder" : 230,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 58,
+    "unknown" : 0,
+    "total" : 61
+  }
+}, {
+  "buildOrder" : 229,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 60,
+    "unknown" : 0,
+    "total" : 61
+  }
+}, {
+  "buildOrder" : 228,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 50,
+    "unknown" : 0,
+    "total" : 51
+  }
+}, {
+  "buildOrder" : 227,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/227/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 47,
+    "unknown" : 0,
+    "total" : 49
+  }
+}, {
+  "buildOrder" : 226,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/226/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 1,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 47,
+    "unknown" : 0,
+    "total" : 49
+  }
+}, {
+  "buildOrder" : 225,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/225/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 48,
+    "unknown" : 0,
+    "total" : 49
+  }
+}, {
+  "buildOrder" : 224,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/224/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 48,
+    "unknown" : 0,
+    "total" : 49
+  }
+}, {
+  "buildOrder" : 223,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/223/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 49,
+    "unknown" : 0,
+    "total" : 49
+  }
+}, {
+  "buildOrder" : 222,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/222/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 47,
+    "unknown" : 0,
+    "total" : 47
+  }
+}, {
+  "buildOrder" : 221,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/221/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 45,
+    "unknown" : 0,
+    "total" : 47
+  }
+}, {
+  "buildOrder" : 220,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/220/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 45,
+    "unknown" : 0,
+    "total" : 46
+  }
+}, {
+  "buildOrder" : 219,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/219/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 46,
+    "unknown" : 0,
+    "total" : 46
+  }
+}, {
+  "buildOrder" : 218,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/218/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 45,
+    "unknown" : 0,
+    "total" : 46
+  }
+}, {
+  "buildOrder" : 217,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/217/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 46,
+    "unknown" : 0,
+    "total" : 46
+  }
+}, {
+  "buildOrder" : 216,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/216/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 45,
+    "unknown" : 0,
+    "total" : 46
+  }
+}, {
+  "buildOrder" : 215,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/215/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 46,
+    "unknown" : 0,
+    "total" : 46
+  }
+}, {
+  "buildOrder" : 214,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/214/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 45,
+    "unknown" : 0,
+    "total" : 46
+  }
+}, {
+  "buildOrder" : 213,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/213/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 45,
+    "unknown" : 0,
+    "total" : 46
+  }
+} ]

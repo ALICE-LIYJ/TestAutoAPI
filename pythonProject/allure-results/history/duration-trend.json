@@ -1,0 +1,141 @@
+[ {
+  "buildOrder" : 231,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 15969
+  }
+}, {
+  "buildOrder" : 230,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 52158
+  }
+}, {
+  "buildOrder" : 229,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 88431
+  }
+}, {
+  "buildOrder" : 228,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 54381
+  }
+}, {
+  "buildOrder" : 227,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/227/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 39542
+  }
+}, {
+  "buildOrder" : 226,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/226/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 38668
+  }
+}, {
+  "buildOrder" : 225,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/225/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 58765
+  }
+}, {
+  "buildOrder" : 224,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/224/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 44367
+  }
+}, {
+  "buildOrder" : 223,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/223/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 82161
+  }
+}, {
+  "buildOrder" : 222,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/222/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 23751
+  }
+}, {
+  "buildOrder" : 221,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/221/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 18383
+  }
+}, {
+  "buildOrder" : 220,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/220/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 17906
+  }
+}, {
+  "buildOrder" : 219,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/219/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 19739
+  }
+}, {
+  "buildOrder" : 218,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/218/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 23301
+  }
+}, {
+  "buildOrder" : 217,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/217/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 19643
+  }
+}, {
+  "buildOrder" : 216,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/216/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 22371
+  }
+}, {
+  "buildOrder" : 215,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/215/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 16610
+  }
+}, {
+  "buildOrder" : 214,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/214/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 35740
+  }
+}, {
+  "buildOrder" : 213,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/213/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 30760
+  }
+}, {
+  "buildOrder" : 212,
+  "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/212/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 16804
+  }
+} ]

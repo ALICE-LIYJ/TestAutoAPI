@@ -1,0 +1,176 @@
+{
+  "uid" : "d3b1ac4d11b3268d",
+  "name" : "新建文件夹",
+  "fullName" : "test_job.TestFileManagement#test_01CreateDir_Success",
+  "historyId" : "4ab3530e069f748a6cfc0ad9f71f1bea",
+  "time" : {
+    "start" : 1701053881842,
+    "stop" : 1701053881929,
+    "duration" : 87
+  },
+  "description" : "\n        新建文件夹：/test-mkdir\n        ",
+  "descriptionHtml" : "<pre><code>    新建文件夹：/test-mkdir\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 0 != 15017",
+  "statusTrace" : "self = <test_job.TestFileManagement testMethod=test_01CreateDir_Success>\n\n        @allure.title(\"新建文件夹\")\n        def test_01CreateDir_Success(self):\n            \"\"\"\n            新建文件夹：/test-mkdir\n            \"\"\"\n            createdir_url = 'https://192.168.111.191/api/v1/storage/createDir'\n            headers = {\n                \"Cookie\": PSPApi.GetCookie(url,name,password)\n            }\n            body = {\n                \"path\": \"/test-mkdir\",\n    \t        \"cross\": False,\n    \t        \"is_cloud\": False,\n    \t        \"user_name\": \"yskj\"\n            }\n            res = self.req.visit('post', createdir_url, headers=headers,json=body)\n            print(res)\n            # 根据请求结果中的code进行断言\n>           self.assertEqual(0, res['code'])\nE           AssertionError: 0 != 15017\n\ntest_job.py:1126: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestFileManagement",
+    "time" : {
+      "start" : 1701053881841,
+      "stop" : 1701053881841,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        新建文件夹：/test-mkdir\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 0 != 15017",
+    "statusTrace" : "self = <test_job.TestFileManagement testMethod=test_01CreateDir_Success>\n\n        @allure.title(\"新建文件夹\")\n        def test_01CreateDir_Success(self):\n            \"\"\"\n            新建文件夹：/test-mkdir\n            \"\"\"\n            createdir_url = 'https://192.168.111.191/api/v1/storage/createDir'\n            headers = {\n                \"Cookie\": PSPApi.GetCookie(url,name,password)\n            }\n            body = {\n                \"path\": \"/test-mkdir\",\n    \t        \"cross\": False,\n    \t        \"is_cloud\": False,\n    \t        \"user_name\": \"yskj\"\n            }\n            res = self.req.visit('post', createdir_url, headers=headers,json=body)\n            print(res)\n            # 根据请求结果中的code进行断言\n>           self.assertEqual(0, res['code'])\nE           AssertionError: 0 != 15017\n\ntest_job.py:1126: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "600da7958b33f019",
+      "name" : "stdout",
+      "source" : "600da7958b33f019.txt",
+      "type" : "text/plain",
+      "size" : 101
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestFileManagement::0",
+    "time" : {
+      "start" : 1701053884150,
+      "stop" : 1701053884150,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PSP"
+  }, {
+    "name" : "feature",
+    "value" : "文件管理"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "test_job"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFileManagement"
+  }, {
+    "name" : "host",
+    "value" : "YSKJ0191"
+  }, {
+    "name" : "thread",
+    "value" : "24676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 45,
+        "unknown" : 0,
+        "total" : 52
+      },
+      "items" : [ {
+        "uid" : "fba7d1f9daff30ad",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/fba7d1f9daff30ad",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 0 != 15017",
+        "time" : {
+          "start" : 1701052055860,
+          "stop" : 1701052055939,
+          "duration" : 79
+        }
+      }, {
+        "uid" : "4f6097f71261378a",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/4f6097f71261378a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700793154774,
+          "stop" : 1700793154915,
+          "duration" : 141
+        }
+      }, {
+        "uid" : "59fd6746254a9762",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/59fd6746254a9762",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700723091630,
+          "stop" : 1700723091837,
+          "duration" : 207
+        }
+      }, {
+        "uid" : "9445b2693ade7c7c",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/9445b2693ade7c7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700710261524,
+          "stop" : 1700710262011,
+          "duration" : 487
+        }
+      }, {
+        "uid" : "1d78222d838ebfba",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/227/allure/#testresult/1d78222d838ebfba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700629847759,
+          "stop" : 1700629847981,
+          "duration" : 222
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d3b1ac4d11b3268d.json",
+  "parameterValues" : [ ]
+}

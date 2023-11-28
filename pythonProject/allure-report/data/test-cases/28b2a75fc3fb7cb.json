@@ -1,0 +1,182 @@
+{
+  "uid" : "28b2a75fc3fb7cb",
+  "name" : "分享文件",
+  "fullName" : "test_job.TestFileManagement#test_13ShareFile_Success",
+  "historyId" : "d95101cf6281c2b9688a05a93bc64d7f",
+  "time" : {
+    "start" : 1701053883855,
+    "stop" : 1701053883931,
+    "duration" : 76
+  },
+  "description" : "\n        分享文件\n        /test-submit(请勿删除！！！)/Blade.sim文件\n        用户：yskj 分享给 用户：tina1\n        ",
+  "descriptionHtml" : "<pre><code>    分享文件\n    /test-submit(请勿删除！！！)/Blade.sim文件\n    用户：yskj 分享给 用户：tina1\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 0 != 15003",
+  "statusTrace" : "self = <test_job.TestFileManagement testMethod=test_13ShareFile_Success>\n\n    @allure.title(\"分享文件\")\n    def test_13ShareFile_Success(self):\n        \"\"\"\n        分享文件\n        /test-submit(请勿删除！！！)/Blade.sim文件\n        用户：yskj 分享给 用户：tina1\n        \"\"\"\n        with allure.step(\"步骤一：分享文件\"):\n            pass\n    \n        share_url = 'https://192.168.111.191/api/v1/storage/share/send'\n        headers = {\n            \"Cookie\": PSPApi.GetCookie(url, name, password)\n        }\n        body = {\n            \"share_file_path\": \"./test-submit(请勿删除！！！)/Blade.sim\",\n            \"share_type\": 2,\n            \"share_user_list\": [\"51cMjxitbKS\"]\n        }\n        res = self.req.visit('post', share_url, headers=headers, json=body)\n        print(res)\n        # 根据请求结果中的code进行断言\n>       self.assertEqual(0, res['code'])\nE       AssertionError: 0 != 15003\n\ntest_job.py:1732: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestFileManagement",
+    "time" : {
+      "start" : 1701053881841,
+      "stop" : 1701053881841,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        分享文件\n        /test-submit(请勿删除！！！)/Blade.sim文件\n        用户：yskj 分享给 用户：tina1\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 0 != 15003",
+    "statusTrace" : "self = <test_job.TestFileManagement testMethod=test_13ShareFile_Success>\n\n    @allure.title(\"分享文件\")\n    def test_13ShareFile_Success(self):\n        \"\"\"\n        分享文件\n        /test-submit(请勿删除！！！)/Blade.sim文件\n        用户：yskj 分享给 用户：tina1\n        \"\"\"\n        with allure.step(\"步骤一：分享文件\"):\n            pass\n    \n        share_url = 'https://192.168.111.191/api/v1/storage/share/send'\n        headers = {\n            \"Cookie\": PSPApi.GetCookie(url, name, password)\n        }\n        body = {\n            \"share_file_path\": \"./test-submit(请勿删除！！！)/Blade.sim\",\n            \"share_type\": 2,\n            \"share_user_list\": [\"51cMjxitbKS\"]\n        }\n        res = self.req.visit('post', share_url, headers=headers, json=body)\n        print(res)\n        # 根据请求结果中的code进行断言\n>       self.assertEqual(0, res['code'])\nE       AssertionError: 0 != 15003\n\ntest_job.py:1732: AssertionError",
+    "steps" : [ {
+      "name" : "步骤一：分享文件",
+      "time" : {
+        "start" : 1701053883856,
+        "stop" : 1701053883856,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ffe5f6545d13aa6e",
+      "name" : "stdout",
+      "source" : "ffe5f6545d13aa6e.txt",
+      "type" : "text/plain",
+      "size" : 95
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_unittest_setUpClass_fixture_TestFileManagement::0",
+    "time" : {
+      "start" : 1701053884150,
+      "stop" : 1701053884150,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "PSP"
+  }, {
+    "name" : "feature",
+    "value" : "文件管理"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "test_job"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFileManagement"
+  }, {
+    "name" : "host",
+    "value" : "YSKJ0191"
+  }, {
+    "name" : "thread",
+    "value" : "24676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_job"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "bce7107001ed1e13",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/231/allure/#testresult/bce7107001ed1e13",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 0 != 15003",
+        "time" : {
+          "start" : 1701052058055,
+          "stop" : 1701052058133,
+          "duration" : 78
+        }
+      }, {
+        "uid" : "db7a4972ba99f873",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/230/allure/#testresult/db7a4972ba99f873",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700793163527,
+          "stop" : 1700793164718,
+          "duration" : 1191
+        }
+      }, {
+        "uid" : "5fbc762a20638be8",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/229/allure/#testresult/5fbc762a20638be8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700723096462,
+          "stop" : 1700723096788,
+          "duration" : 326
+        }
+      }, {
+        "uid" : "3ee723047a1b3f64",
+        "reportUrl" : "http://localhost:8081/jenkins/job/Python-Allure-test/228/allure/#testresult/3ee723047a1b3f64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700710272165,
+          "stop" : 1700710273265,
+          "duration" : 1100
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "28b2a75fc3fb7cb.json",
+  "parameterValues" : [ ]
+}

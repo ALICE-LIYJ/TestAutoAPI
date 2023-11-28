@@ -1,0 +1,6 @@
+作业提交成功，界面跳转到作业管理界面
+<Response [200]>
+{'success': True, 'code': 0, 'message': '', 'data': {'path': '.tmp_upload/51LWgBvaYjU'}}
+.tmp_upload/51LWgBvaYjU
+<Response [200]>
+{'success': False, 'code': 15003, 'message': '文件不存在', 'data': None}

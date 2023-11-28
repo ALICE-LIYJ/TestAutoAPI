@@ -1,0 +1,34 @@
+#PSP
+#登录接口
+login_url: https://192.168.111.191/api/v1/auth/login
+#添加本地应用接口
+addapp_url: https://192.168.111.191:443/api/v1/app/template
+#发布/取消发布接口
+publishapp_url: https://192.168.111.191/api/v1/app/template/publish
+#作业账单查询接口
+account_url: https://192.168.111.191/api/v1/billing/list
+#作业信息查询接口
+job_url: https://192.168.111.191/api/v1/job/list
+#新建文件夹接口
+createdir_url: https://192.168.111.191/api/v1/storage/createDir
+#上传文件前准备接口
+preupload_url: https://192.168.111.191/api/v1/storage/preUpload
+#文件上传接口
+upload_url: https://192.168.111.191/api/v1/storage/upload
+#文件删除接口
+remove_url: https://192.168.111.191/api/v1/storage/remove
+#文件重命名接口
+rename_url: https://192.168.111.191/api/v1/storage/rename
+#文件移动接口
+move_url: https://192.168.111.191/api/v1/storage/move
+#作业提交接口
+submit_url: https://192.168.111.191/api/v1/job/submit
+#列出作业信息接口
+joblist_url: https://192.168.111.191/api/v1/job/list
+#检查文件是否上传成功
+listofrecur_url: https://192.168.111.191/api/v1/storage/listOfRecur
+#hpc调用需要上传的文件
+hpcupload_url: https://192.168.111.191/api/v1/storage/hpcUpload/submitTask
+#创建临时工作目录
+createtempdir_url: https://192.168.111.191/api/v1/job/createTempDir
+
