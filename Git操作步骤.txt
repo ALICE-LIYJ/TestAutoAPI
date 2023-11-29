@@ -1,0 +1,39 @@
+本地配置步骤：
+步骤一：git clone https://github.com/ALICE-LIYJ/TestAutoAPI.git  	#克隆到本地
+
+步骤二：git init  							#生成本地 .git 仓库
+
+步骤三：git config --global user.name "18100175018@163.com"   		#全局用户名
+
+步骤四：git config --global user.email "18100175018@163.com"   		#全局邮箱
+
+步骤五：git remote add origin git@github.com: https://github.com/ALICE-LIYJ/TestAutoAPI.git  #添加到远程指定的仓库
+
+步骤六：git config --global color.ui true   			#git status等命令自动着色
+
+步骤七：git config --global color.status auto
+
+步骤八：git config --global color.diff auto
+
+步骤九：git config --global color.branch auto
+
+步骤十：git config --global color.interactive auto
+
+步骤十一：git config --global --unset https.proxy  		#取消https代理
+
+步骤十二：git config --global --unset http.proxy    		#取消http代理
+
+
+代码提交步骤：
+
+打开git bash 在本地创建文件夹AUTO，在此地址下提交代码：D:\SoftWare\AUTO\TestAutoAPI(main)
+
+步骤一：git add .  				#添加当前目录的所有文件到暂存区
+
+步骤二：git commit -m "说明"  			#提交暂存区到仓库区
+
+步骤三：git push -u origin main   		#推送到远程分支
+
+步骤四：登录github上面会有提交记录，创建一个新的pull request
+
+步骤五：同意将此main分支的请求提交合并进master分支
